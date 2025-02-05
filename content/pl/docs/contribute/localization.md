@@ -32,9 +32,9 @@ konkretnej lokalizacji, poszukaj zlokalizowanej wersji tej strony.
 ### Znajdź swój dwuliterowy kod języka {#find-your-two-letter-language-code}
 
 Najpierw zapoznaj się ze [standardem ISO 639-1](https://www.loc.gov/standards/iso639-2/php/code_list.php)
-w celu znalezienia
-dwuliterowego kodu języka dla lokalizacji.
-Na przykład dwuliterowy kod dla języka koreańskiego to `ko`.
+w
+celu znalezienia dwuliterowego kodu języka dla
+lokalizacji. Na przykład dwuliterowy kod dla języka polskiego to `pl`.
 
 Niektóre języki używają małej wersji kodu kraju, jak
 zdefiniowano w ISO-3166, wraz z ich kodami językowymi. Na
@@ -85,8 +85,8 @@ należy ich przetłumaczenie oraz aktualizowanie istniejących zlokalizowanych t
 
 Będziesz musiał znać dwuliterowy kod językowy dla swojego języka.
 Zapoznaj się z [standardem ISO 639-1](https://www.loc.gov/standards/iso639-2/php/code_list.php),
-aby znaleźć dwuliterowy kod językowy dla swojej lokalizacji.
-Na przykład dwuliterowy kod dla języka koreańskiego to `ko`.
+aby znaleźć dwuliterowy kod językowy dla
+swojej lokalizacji. Na przykład dwuliterowy kod dla języka polskiego to `pl`.
 
 Jeśli język, dla którego zaczynasz lokalizację, jest używany w różnych
 miejscach z istotnymi różnicami między wariantami, może mieć sens
