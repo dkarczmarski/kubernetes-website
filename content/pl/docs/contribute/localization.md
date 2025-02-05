@@ -48,7 +48,7 @@ repozytorium [kubernetes/website](https://github.com/kubernetes/website).
 Następnie, sklonuj swój fork i przejdź do niego za pomocą `cd`:
 
 ```shell
-git clone https://github.com/<username>/website
+git clone https://github.com/<nazwa-użytkownika>/website
 cd website
 ```
 
