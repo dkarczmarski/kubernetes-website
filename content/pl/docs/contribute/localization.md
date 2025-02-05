@@ -190,8 +190,8 @@ Przy przypisywaniu parametru `weight` ważne jest, aby zbadać
 istniejący blok języków i dostosować ich wartości, aby zapewnić, że są w
 uporządkowanej kolejności względem wszystkich języków, w tym każdego nowo dodanego języka.
 
-Aby uzyskać więcej informacji na temat wsparcia wielojęzycznego Hugo,
-zobacz "[Tryb wielojęzyczny](https://gohugo.io/content-management/multilingual/)".
+Aby uzyskać więcej informacji na temat wsparcia wielojęzycznego Hugo, zobacz
+[Multilingual mode](https://gohugo.io/content-management/multilingual/).
 
 ### Dodaj nowy katalog lokalizacyjny {#add-a-new-localization-directory}
 
