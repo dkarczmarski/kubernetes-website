@@ -23,7 +23,7 @@ nadchodzące spotkanie SIG Docs i weź udział w spotkaniu, aby uczestniczyć w 
 Dokumentacja Kubernetes wykorzystuje
 [Goldmark Markdown Renderer](https://github.com/yuin/goldmark) z
 pewnymi modyfikacjami oraz kilkoma
-[Hugo Shortcodes](/docs/contribute/style/hugo-shortcodes/) do obsługi
+[Kody Hugo](/docs/contribute/style/hugo-shortcodes/) do obsługi
 wpisów słownikowych, zakładek i przedstawiania stanu funkcji.
 {{< /note >}}
 
@@ -332,14 +332,14 @@ cloud native | Cloud native lub cloud native, w zależności od odpowiedniej str
 open source | Otwarty kod źródłowy lub otwarty kod źródłowy, odpowiednio do struktury zdania, zamiast open-source lub Open Source.
 {{< /table >}}
 
-## Shortcody {#shortcodes}
+## Kody {#shortcodes}
 
 [Shortcody](https://gohugo.io/content-management/shortcodes) Hugo
 pomagają tworzyć różne poziomy przekazu. Nasza dokumentacja obsługuje
 trzy różne skróty w tej kategorii: **Informacja** `{{</* note */>}}`,
 **Uwaga** `{{</* caution */>}}`, oraz **Ostrzeżenie** `{{</* warning */>}}`.
 
-1. Otocz tekst otwierającym i zamykającym shortcodem.
+1. Otocz tekst otwierającym i zamykającym kodem.
 
 2. Użyj następującej składni, aby zastosować styl:
 
@@ -352,7 +352,7 @@ trzy różne skróty w tej kategorii: **Informacja** `{{</* note */>}}`,
    Wynik to:
 
    {{< note >}}
-   Nie musisz dodawać prefiksu - shortcode generuje go automatycznie (Note:, Caution:, itp.)
+   Nie musisz dodawać prefiksu - kod generuje go automatycznie (Note:, Caution:, itp.)
    {{< /note >}}
 
 ### Note {#note}
@@ -391,12 +391,12 @@ Możesz użyć `{{</* note */>}}` w liście:
 
 Wynik to:
 
-1. Użyj shortcode'u note na liście
+1. Użyj kodu note na liście
 
 1. Drugi element z osadzoną notatką
 
     {{< note >}}
-    Shortcody Warning, Caution i Note, osadzone w listach, muszą być wcięte o cztery spacje. Zobacz [Typowe problemy ze shortcode'ami](#common-shortcode-issues).
+    Shortcody Warning, Caution i Note, osadzone w listach, muszą być wcięte o cztery spacje. Zobacz [Typowe problemy ze kodami](#common-shortcode-issues).
     {{< /note >}}
 
 1. Trzecia pozycja na liście
@@ -439,11 +439,11 @@ Wynik to:
 Uwaga.
 {{< /warning >}}
 
-## Typowe problemy z shortcodami {#common-shortcode-issues}
+## Typowe problemy z kodami {#common-shortcode-issues}
 
 ### Listy uporządkowane {#ordered-lists}
 
-Shortcody przerwą numerowane listy, chyba że dodasz wcięcie na cztery spacje przed `{{ note }}` i tagiem.
+Kody przerwą numerowane listy, chyba że dodasz wcięcie na cztery spacje przed `{{ note }}` i tagiem.
 
 Na przykład:
 
@@ -466,7 +466,7 @@ Wynik to:
 
 ### Dołącz instrukcje {#include-statements}
 
-Umieszczanie shortcodów w instrukcjach include spowoduje błąd kompilacji.
+Umieszczanie kodów w instrukcjach include spowoduje błąd kompilacji.
 Należy je dodać w dokumencie nadrzędnym - przed i po wywołaniu include. Przykład:
 
 ```
@@ -487,12 +487,12 @@ tekstów. Dwuliniowy odstęp pomaga lepiej wizualizować ogólną strukturę tre
 
 W odpowiednich miejscach ręcznie łam wiersze w plikach Markdown.
 Ponieważ Git i GitHub generują różnice w plikach w oparciu o
-pojedyncze linie, dzielenie długich linii ułatwia recenzentom przeglądanie
-zmian w pull requeście i dodawanie komentarzy. Jest to także
-pomocne dla zespołów lokalizacyjnych, które śledzą zmiany w oryginalnym
-tekście na poziomie pojedynczych linii. Łamanie linii może
+pojedyncze linie, dzielenie długich linii ułatwia recenzentom
+przeglądanie zmian w pull requeście i dodawanie komentarzy. Jest to także
+pomocne dla zespołów lokalizacyjnych, które śledzą zmiany w
+oryginalnym tekście na poziomie pojedynczych linii. Łamanie linii może
 następować na końcu zdania lub po znaku interpunkcyjnym. Wyjątkiem od tej
-zasady są linki Markdown oraz shortcody, które powinny pozostawać w jednej linii.
+zasady są linki Markdown oraz kody, które powinny pozostawać w jednej linii.
 
 ### Nagłówki i tytuły {#headings}
 
@@ -567,7 +567,7 @@ szybko przeglądać tabelę, ale czytnik ekranu przechodzi przez nią linia po l
 stworzenia opisu tabeli danych używa się podpisu tabeli. Technologie wspomagające (AT) używają
 elementu podpisu tabeli HTML, aby zidentyfikować zawartość tabeli użytkownikowi w ramach struktury strony.
 
-- Dodaj podpisy tabel, używając [Hugo shortcode](/docs/contribute/style/hugo-shortcodes/#table-captions) dla tabel.
+- Dodaj podpisy tabel, używając [Kody Hugo](/docs/contribute/style/hugo-shortcodes/#table-captions) dla tabel.
 
 ## Najlepsze praktyki dotyczące treści {#content-best-practices}
 
@@ -700,5 +700,5 @@ twoje wkłady są spójne z resztą projektu. Aby zobaczyć plik, zajrzyj do
 
 * Dowiedz się więcej o [pisaniu nowego tematu](/docs/contribute/style/write-new-topic/).
 * Dowiedz się więcej o [korzystaniu z szablonów stron](/docs/contribute/style/page-content-types/).
-* Dowiedz się więcej o [niestandardowych skrótach hugo](/docs/contribute/style/hugo-shortcodes/).
+* Dowiedz się więcej o [niestandardowych kodach hugo](/docs/contribute/style/hugo-shortcodes/).
 * Dowiedz się więcej o [tworzeniu pull requesta](/docs/contribute/new-content/open-a-pr/).
