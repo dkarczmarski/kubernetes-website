@@ -98,9 +98,9 @@ wyszukiwanie stron. Pozwala to zweryfikować, czy dana strona rzeczywiście istn
 Oprócz samodzielnych stron (pliki Markdown), Hugo obsługuje
 [Pakiety Stron](https://gohugo.io/content-management/page-bundles/).
 
-Jednym z przykładów są [niestandardowe shortcody Hugo](/docs/contribute/style/hugo-shortcodes/).
-Jest to uważane za `leaf bundle`. Wszystko poniżej katalogu, włącznie z `index.md`, będzie
-częścią pakietu. Dotyczy to także linków względnych do strony, obrazów, które mogą być przetwarzane, itp.:
+Jednym z przykładów są [niestandardowe kody Hugo](/docs/contribute/style/hugo-shortcodes/).
+Jest to uważane za `leaf bundle`. Wszystko poniżej katalogu, włącznie z `index.md`, będzie częścią pakietu.
+Dotyczy to także linków względnych do strony, obrazów, które mogą być przetwarzane, itp.:
 
 ```bash
 en/docs/home/contribute/includes
@@ -142,6 +142,6 @@ jest przechowywane w `assets/sass` i jest automatycznie budowane przez Hugo.
 
 ## {{% heading "whatsnext" %}}
 
-* Dowiedz się więcej o [niestandardowych shortcodach Hugo](/docs/contribute/style/hugo-shortcodes/)
+* Dowiedz się więcej o [niestandardowych kodach Hugo](/docs/contribute/style/hugo-shortcodes/)
 * Dowiedz się więcej o [Przewodniku stylu](/docs/contribute/style/style-guide)
 * Dowiedz się więcej o [Przewodniku treści](/docs/contribute/style/content-guide)
