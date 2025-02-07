@@ -17,10 +17,10 @@ Dokumentacja Kubernetes obejmuje kilka typów treści stron:
 
 ## Sekcje treści {#content-sections}
 
-Każdy typ strony zawiera szereg sekcji zdefiniowanych przez komentarze
-Markdown i nagłówki HTML. Możesz dodać nagłówki do
-swojej strony za pomocą shortcodu `heading`. Komentarze i
-nagłówki pomagają utrzymać strukturę typów zawartości strony.
+Każdy typ strony zawiera szereg sekcji zdefiniowanych przez
+komentarze Markdown i nagłówki HTML. Możesz dodać nagłówki
+do swojej strony za pomocą kodu `heading`. Komentarze i
+nagłówki pomagają utrzymać odpowiednią strukturę strony dla danego typu.
 
 Przykłady komentarzy w Markdown definiujących sekcje strony:
 
@@ -33,7 +33,7 @@ Przykłady komentarzy w Markdown definiujących sekcje strony:
 ```
 
 Aby utworzyć typowe nagłówki na swoich
-stronach, użyj shortcodu `heading` z nazwą nagłówka.
+stronach, użyj kodu `heading` z nazwą nagłówka.
 
 Przykłady nazw nagłówków:
 
@@ -45,7 +45,7 @@ Przykłady nazw nagłówków:
 - seealso - zobacz także
 - options - opcje
 
-Na przykład, aby utworzyć nagłówek `whatsnext`, dodaj shortcode nagłówka z nazwą "whatsnext":
+Na przykład, aby utworzyć nagłówek `whatsnext`, dodaj kod nagłówka z nazwą "whatsnext":
 
 ```none
 ## {{%/* heading "whatsnext" */%}}
@@ -57,9 +57,9 @@ Możesz zadeklarować nagłówek `prerequisites` w następujący sposób:
 ## {{%/* heading "prerequisites" */%}}
 ```
 
-`heading` shortcode oczekuje jednego parametru
-typu string. Ten parametr nagłówka odpowiada
-prefiksowi zmiennej w plikach `i18n/<lang>.toml`. Na przykład:
+Kod `heading` oczekuje jednego parametru typu
+string. Ten parametr nagłówka odpowiada prefiksowi zmiennej
+w plikach `i18n/<lang>.toml`. Na przykład:
 
 `` `i18n/en.toml`:` ``
 
@@ -100,7 +100,7 @@ Strony koncepcyjne są podzielone na trzy sekcje:
 | whatsnext - co dalej    |
 
 Sekcje `overview` i `body` pojawiają się jako komentarze na stronie z
-koncepcjami. Możesz dodać sekcję `whatsnext` do swojej strony za pomocą shortcode `heading`.
+koncepcjami. Możesz dodać sekcję `whatsnext` do swojej strony za pomocą kodu `heading`.
 
 Wypełnij każdą sekcję treścią. Postępuj zgodnie z tymi wytycznymi:
 
@@ -128,15 +128,15 @@ podkatalogu katalogu `/content/en/docs/tasks`, z następującymi sekcjami:
 | discussion - dyskusja    |
 | whatsnext - co dalej    |
 
-Sekcje `overview`, `steps` i `discussion` pojawiają się jako
-komentarze na stronie zadania. Możesz dodać sekcje
-`prerequisites` i `whatsnext` do swojej strony za pomocą shortcode `heading`.
+Sekcje `overview`, `steps` i `discussion` pojawiają się jako komentarze
+na stronie zadania. Możesz dodać sekcje
+`prerequisites` i `whatsnext` do swojej strony za pomocą kodu `heading`.
 
 W każdej sekcji napisz swoją treść. Użyj następujących wytycznych:
 
-- Użyj co najmniej nagłówków H2 (z dwoma wiodącymi
+- Użyj nagłówków poziomu H2 lub niższego (z dwoma wiodącymi
   znakami `#`). Sekcje są automatycznie tytułowane przez szablon.
-- Dla `overview`, użyj akapitu, aby ustawić kontekst dla całego tematu.
+- Dla `overview` użyj akapitu, aby ustawić kontekst dla całego tematu.
 - Dla `prerequisites` używaj list punktowanych, kiedy to możliwe. Zaczynaj dodawać dodatkowe
   wymagania wstępne poniżej `include`. Domyślne wymagania wstępne obejmują działający klaster Kubernetes.
 - Dla `steps` używaj numerowanych list.
@@ -168,15 +168,15 @@ podkatalogu katalogu `/content/en/docs/tutorials`, z następującymi sekcjami:
 | cleanup - sprzątanie    |
 | whatsnext - co dalej    |
 
-Sekcje `overview`, `objectives` i `lessoncontent` pojawiają się jako
-komentarze na stronie samouczka. Możesz dodać sekcje `prerequisites`, `cleanup`
-i `whatsnext` do swojej strony za pomocą shortcodu `heading`.
+Sekcje `overview`, `objectives` i `lessoncontent` pojawiają się
+jako komentarze na stronie samouczka. Możesz dodać sekcje
+`prerequisites`, `cleanup` i `whatsnext` do swojej strony za pomocą kodu `heading`.
 
 W każdej sekcji napisz swoją treść. Użyj następujących wytycznych:
 
-- Użyj co najmniej nagłówków H2 (z dwoma wiodącymi
+- Użyj nagłówków poziomu H2 lub niższego (z dwoma wiodącymi
   znakami `#`). Sekcje są automatycznie tytułowane przez szablon.
-- Dla `overview`, użyj akapitu, aby ustawić kontekst dla całego tematu.
+- Dla `overview` użyj akapitu, aby ustawić kontekst dla całego tematu.
 - W przypadku `prerequisites` używaj, jeśli to możliwe, list
   punktowanych. Dodaj dodatkowe wymagania wstępne poniżej tych domyślnie uwzględnionych.
 - Dla `objectives`, używaj list wypunktowanych.
