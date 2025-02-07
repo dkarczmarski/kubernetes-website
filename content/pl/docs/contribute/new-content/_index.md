@@ -63,9 +63,9 @@ przesłaniem nowej treści. Szczegóły znajdują się poniżej.
   automatycznie generowana ze skryptów w katalogu `update-imported-docs/`.
 - [Typy zawartości strony](/docs/contribute/style/page-content-types/)
   opisują sposób prezentacji treści dokumentacji w Hugo.
-- Możesz użyć [shortcode'ów Docsy](https://www.docsy.dev/docs/adding-content/shortcodes/) lub [niestandardowych skrótów Hugo](/docs/contribute/style/hugo-shortcodes/), aby wspierać dokumentację Kubernetes.
-- Oprócz standardowych shortcode'ów Hugo, w naszej dokumentacji używamy
-  wielu [niestandardowych shortcode'ów Hugo](/docs/contribute/style/hugo-shortcodes/),
+- Możesz użyć [kodów Docsy](https://www.docsy.dev/docs/adding-content/shortcodes/) lub [niestandardowych skrótów Hugo](/docs/contribute/style/hugo-shortcodes/), aby wspierać dokumentację Kubernetes.
+- Oprócz standardowych kodów Hugo, w naszej dokumentacji
+  używamy wielu [niestandardowych kodów Hugo](/docs/contribute/style/hugo-shortcodes/),
   aby kontrolować prezentację treści.
 - Dokumentacja jest dostępna w wielu językach w katalogu `/content/`. Każdy język
   ma własny folder z dwuliterowym kodem określonym przez
