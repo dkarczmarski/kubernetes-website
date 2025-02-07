@@ -155,8 +155,8 @@ Podczas przeglądania kieruj się następującymi wskazówkami jako punkt wyjśc
 
 - Czy PR wprowadza nową stronę? Jeśli tak:
 
-  - Czy strona używa odpowiedniego [typu zawartości strony](/docs/contribute/style/page-content-types/)
-    i powiązanych shortcode'ów Hugo?
+  - Czy strona używa odpowiedniego
+    [typu zawartości strony](/docs/contribute/style/page-content-types/) i powiązanych kodów Hugo?
   - Czy strona pojawia się poprawnie w nawigacji bocznej sekcji (lub w ogóle)?
   - Czy strona powinna pojawić się na liście [Strona główna dokumentacji](/docs/home/)?
 
@@ -194,7 +194,7 @@ Podczas przeglądania kieruj się następującymi wskazówkami jako punkt wyjśc
 - [Przewodnik stylu](/docs/contribute/style/style-guide/) w dużej mierze odnosi się również do PR-ów na blogu, ale robimy pewne wyjątki.
   
   - można używać "my" w artykule na blogu, który ma wielu autorów lub w przypadku, gdy wprowadzenie do artykułu wyraźnie wskazuje, że autor pisze w imieniu określonej grupy.
-  - unikamy używania shortcodów Kubernetes do wyróżnień (takich jak `{{</* caution */>}}`)
+  - unikamy używania kodów Kubernetes do wyróżnień (takich jak `{{</* caution */>}}`)
   - stwierdzenia dotyczące przyszłości są w porządku, choć
     używamy ich ostrożnie w oficjalnych ogłoszeniach w imieniu Kubernetes
   - przykłady kodu nie muszą używać skrótu `{{</* code_sample */>}}` i często lepiej jest, jeśli tego nie robią
