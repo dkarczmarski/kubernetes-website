@@ -6,7 +6,7 @@ weight: 80
 
 <!-- overview -->
 
-Dokumentacja Kubernetes obejmuje kilka typów treści stron:
+Dokumentacja Kubernetesa obejmuje kilka typów treści stron:
 
 - Pojęcia i koncepcje (ang. Concept)
 - Zadanie (ang. Task)
