@@ -127,8 +127,8 @@ oznacza język dla danego tematu. W pliku tematu użyj skrótu `code_sample`:
 {{%/* code_sample file="<RELPATH>/my-example-yaml>" */%}}
 ```
 gdzie `<RELPATH>` jest ścieżką do pliku do dołączenia, względną do
-katalogu `examples`. Następujący shortcode Hugo odnosi się do pliku
-YAML znajdującego się w `/content/en/examples/pods/storage/gce-volume.yaml`.
+katalogu `examples`. Następujący kod Hugo odnosi się do pliku YAML
+znajdującego się w `/content/en/examples/pods/storage/gce-volume.yaml`.
 
 ```none
 {{%/* code_sample file="pods/storage/gce-volume.yaml" */%}}
