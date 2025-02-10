@@ -12,17 +12,17 @@ card:
 Ta strona jest utrzymywana przez [Kubernetes SIG Docs](/docs/contribute/#get-involved-with-sig-docs).
 Projekt Kubernetes chętnie przyjmie pomoc od wszystkich współtwórców, zarówno nowych, jak i doświadczonych!
 
-Współtwórcy dokumentacji Kubernetes:
+Współtwórcy dokumentacji Kubernetesa:
 
 - Ulepszają istniejącą treść
 - Tworzą nowe treści
 - Tłumaczą dokumentację
-- Zarządzają i publikują części dokumentacji cyklu wydawniczego Kubernetes
+- Zarządzają i publikują części dokumentacji cyklu wydawniczego Kubernetesa
 
 ---
 
 {{< note >}}
-Aby dowiedzieć się więcej o kontrybucji w Kubernetes, zobacz
+Aby dowiedzieć się więcej o kontrybucji w Kubernetesach, zobacz
 ogólną [dokumentację współtwórców](https://www.kubernetes.dev/docs/).
 {{< /note >}}
 
@@ -32,12 +32,12 @@ ogólną [dokumentację współtwórców](https://www.kubernetes.dev/docs/).
 ## Rozpoczęcie pracy {#getting-started}
 
 Każdy może otworzyć zgłoszenie dotyczące
-dokumentacji lub wnieść zmianę za pomocą pull request (PR)
-w [repozytorium `kubernetes/website` na GitHubie](https://github.com/kubernetes/website).
-Musisz
-umieć sprawnie korzystać z
+dokumentacji lub wnieść zmianę za pomocą pull request
+(PR) w [repozytorium `kubernetes/website` na GitHubie](https://github.com/kubernetes/website).
+Musisz umieć
+sprawnie korzystać z
 [git](https://git-scm.com/) i [GitHub](https://skills.github.com/),
-aby efektywnie pracować w społeczności Kubernetes.
+aby efektywnie pracować w społeczności Kubernetesa.
 
 Aby zaangażować się w tworzenie dokumentacji:
 
@@ -144,10 +144,10 @@ Rysunek 2. Przygotowanie do twojej pierwszej kontrybucji.
   aby znaleźć problemy, które są dobrymi punktami wyjścia.
 - [Otwórz pull request używając GitHub](/docs/contribute/new-content/open-a-pr/#changes-using-github)
   do istniejącej dokumentacji i dowiedz się więcej o zgłaszaniu problemów na GitHub.
-- [Przeglądaj pull requesty](/docs/contribute/review/reviewing-prs/)
-  od innych członków społeczności Kubernetes pod kątem dokładności i języka.
+- [Przeglądaj pull requesty](/docs/contribute/review/reviewing-prs/) od innych
+  członków społeczności Kubernetesa pod kątem dokładności i języka.
 - Przeczytaj [przewodnik treści](/docs/contribute/style/content-guide/) i
-  [przewodniki stylu](/docs/contribute/style/style-guide/) dla Kubernetes, aby móc zostawiać merytoryczne komentarze.
+  [przewodniki stylu](/docs/contribute/style/style-guide/) dla Kubernetesa, aby móc zostawiać merytoryczne komentarze.
 - Dowiedz się więcej o [typach treści stron](/docs/contribute/style/page-content-types/)
   i [shortcode`ach Hugo](/docs/contribute/style/hugo-shortcodes/).
 
@@ -174,9 +174,9 @@ wchodzić w interakcje z Ambasadorami Nowych Współtwórców i uzyskać odpowie
 ## Zaangażuj się w SIG Docs. {#get-involved-with-sig-docs}
 
 [SIG Docs](/docs/contribute/participate/) to grupa współtwórców, którzy
-publikują i utrzymują dokumentację Kubernetes oraz stronę internetową.
+publikują i utrzymują dokumentację Kubernetesa oraz stronę internetową.
 Zaangażowanie się w SIG Docs to doskonały sposób dla współtwórców
-Kubernetes (rozwój funkcji lub inne) na wywarcie dużego wpływu na projekt Kubernetes.
+Kubernetes (rozwój funkcji lub inne) na wywarcie dużego wpływu na projekt Kubernetesa.
 
 SIG Dokumentacja komunikuje się za pomocą różnych metod:
 
@@ -194,10 +194,10 @@ SIG Dokumentacja komunikuje się za pomocą różnych metod:
 
 ## Inne sposoby wnoszenia wkładu {#other-ways-to-contribute}
 
-- Odwiedź [stronę społeczności Kubernetes](/community/). Weź udział na Twitterze lub
-  Stack Overflow, dowiedz się o lokalnych spotkaniach i wydarzeniach Kubernetes i nie tylko.
+- Odwiedź [stronę społeczności Kubernetesa](/community/). Weź udział na Twitterze lub
+  Stack Overflow, dowiedz się o lokalnych spotkaniach i wydarzeniach Kubernetesa i nie tylko.
 - Przeczytaj [ściągawkę współtwórcy](https://www.kubernetes.dev/docs/contributor-cheatsheet/),
-  aby zaangażować się w rozwój funkcji Kubernetes.
+  aby zaangażować się w rozwój funkcji Kubernetesa.
 - Odwiedź stronę dla współtwórców, aby dowiedzieć się więcej o
-  [współtwórcach Kubernetes](https://www.kubernetes.dev/) oraz [dodatkowych zasobach dla współtwórców](https://www.kubernetes.dev/resources/).
+  [współtwórcach Kubernetesa](https://www.kubernetes.dev/) oraz [dodatkowych zasobach dla współtwórców](https://www.kubernetes.dev/resources/).
 - Prześlij [post na bloga lub studium przypadku](/docs/contribute/new-content/blogs-case-studies/).
