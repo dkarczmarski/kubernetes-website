@@ -20,17 +20,17 @@ poleceń Git jak rownież inne narzędzia do wykonania niektórych z tych zadań
 [Członkowie](/docs/contribute/participate/roles-and-responsibilities/#members)
 SIG Docs mogą proponować usprawnienia.
 
-Po tym, jak przez jakiś czas będziesz wnosić wkład do dokumentacji Kubernetes,
+Po tym, jak przez jakiś czas będziesz wnosić wkład do dokumentacji Kubernetesa,
 możesz mieć pomysły na ulepszenie [Przewodnika Stylu](/docs/contribute/style/style-guide/),
 [Przewodnika Treści](/docs/contribute/style/content-guide/),
 narzędzi wykorzystywanych do tworzenia dokumentacji, stylu strony internetowej,
-procesów przeglądania i scalania pull requestów, lub innych aspektów dokumentacji.
-Dla maksymalnej przejrzystości, tego rodzaju propozycje muszą być omówione
-podczas spotkania SIG Docs lub na [liście mailingowej kubernetes-sig-docs](https://groups.google.com/forum/#!forum/kubernetes-sig-docs).
-Dodatkowo, może pomóc
-posiadanie kontekstu dotyczącego obecnego sposobu działania i przyczyn
-podejmowania wcześniejszych decyzji, zanim zaproponujesz radykalne zmiany. Najszybszym
-sposobem uzyskania odpowiedzi na pytania dotyczące obecnego działania dokumentacji jest
+procesów przeglądania i scalania pull requestów, lub innych aspektów dokumentacji. Dla
+maksymalnej przejrzystości, tego rodzaju propozycje muszą być omówione podczas
+spotkania SIG Docs lub na [liście mailingowej kubernetes-sig-docs](https://groups.google.com/forum/#!forum/kubernetes-sig-docs).
+Dodatkowo, może pomóc posiadanie kontekstu
+dotyczącego obecnego sposobu działania i przyczyn podejmowania
+wcześniejszych decyzji, zanim zaproponujesz radykalne zmiany. Najszybszym sposobem
+uzyskania odpowiedzi na pytania dotyczące obecnego działania dokumentacji jest
 zadanie ich na kanale `#sig-docs` na Slacku [kubernetes.slack.com](https://kubernetes.slack.com)
 
 Po odbyciu dyskusji i osiągnięciu porozumienia przez SIG w sprawie
@@ -42,13 +42,13 @@ zmiana związana z testowaniem dokumentacji może wymagać współpracy z sig-te
 ## Koordynowanie dokumentacji do wydania Kubernetes {#coordinate-docs-for-a-kubernetes-release}
 
 [Zatwierdzający](/docs/contribute/participate/roles-and-responsibilities/#approvers)
-SIG Docs mogą koordynować dokumentację dla wydania Kubernetes.
+SIG Docs mogą koordynować dokumentację dla wydania Kubernetesa.
 
-Każde wydanie Kubernetes jest koordynowane przez zespół osób
-uczestniczących w sig-release (ang. Special Interest Group - SIG). Inni członkowie
-zespołu wydania dla danego wydania to ogólny lider
-wydania, a także przedstawiciele sig-testing i innych. Aby dowiedzieć się
-więcej o procesach wydania Kubernetes, odwiedź
+Każde wydanie Kubernetesa jest koordynowane przez zespół osób
+uczestniczących w sig-release (ang. Special Interest Group - SIG).
+Inni członkowie zespołu wydania dla danego wydania to ogólny lider
+wydania, a także przedstawiciele sig-testing i innych. Aby
+dowiedzieć się więcej o procesach wydania Kubernetesa, odwiedź
 [https://github.com/kubernetes/sig-release](https://github.com/kubernetes/sig-release).
 
 Przedstawiciel SIG Docs dla danego wydania koordynuje następujące zadania:
@@ -84,7 +84,7 @@ Obowiązki Ambasadorów Nowych Współtwórców obejmują:
 - Monitorowanie [kanału Slack #sig-docs](https://kubernetes.slack.com) w poszukiwaniu pytań od nowych współtwórców.
 - Współprace z osobami zajmującymi się obsługą PR w celu zidentyfikowania [dobrych pierwszych problemów](https://kubernetes.dev/docs/guide/help-wanted/#good-first-issue) dla nowych współtwórców.
 - Mentoring nowych współtwórców w trakcie ich pierwszych kilku PR-ów do repozytorium dokumentacji.
-- Pomoc nowym współtwórcom w tworzeniu bardziej złożonych PR, które są im potrzebne, aby stać się członkami Kubernetes.
+- Pomoc nowym współtwórcom w tworzeniu bardziej złożonych PR, które są im potrzebne, aby stać się członkami Kubernetesa.
 - [Sponsorowanie współtwórców](/docs/contribute/advanced/#sponsor-a-new-contributor) w ich drodze do zostania członkami Kubernetes.
 - Prowadzenie comiesięcznego spotkania w celu pomocy i mentorowania nowych współtwórców.
 
@@ -96,8 +96,8 @@ Obecni Ambasadorzy Nowych Współtwórców są ogłaszani na każdym spotkaniu S
 SIG Docs mogą sponsorować nowych współtwórców.
 
 Po pomyślnym przesłaniu 5 merytorycznych pull requestów do jednego lub
-więcej repozytoriów Kubernetes, nowy współtwórca może ubiegać się
-o [członkostwo](/docs/contribute/participate/roles-and-responsibilities/#members)
+więcej repozytoriów Kubernetesa, nowy współtwórca może
+ubiegać się o [członkostwo](/docs/contribute/participate/roles-and-responsibilities/#members)
 w organizacji Kubernetes. Członkostwo
 współtwórcy musi być poparte przez dwóch sponsorów, którzy są już recenzentami.
 
@@ -116,7 +116,7 @@ mogą pełnić funkcję współprzewodniczącego SIG Docs.
 
 ### Wymagania wstępne {#prerequisites}
 
-Członek zespołu Kubernetes musi spełniać następujące wymagania, aby zostać współprzewodniczącym:
+Członek zespołu Kubernetesa musi spełniać następujące wymagania, aby zostać współprzewodniczącym:
 
 - Rozumieć przepływy pracy i narzędzi SIG Docs: git, Hugo, lokalizacja, podprojekt bloga
 - Rozumieć, w jaki sposób inne Kubernetes SIG i repozytoria wpływają na przepływ
@@ -131,7 +131,7 @@ Członek zespołu Kubernetes musi spełniać następujące wymagania, aby zosta�
 
 ### Odpowiedzialności {#responsibilities}
 
-Rola współprzewodniczącego jest rolą usługową: współprzewodniczący buduje potencjał współpracowników, zajmuje się procesami i polityką, organizuje i prowadzi spotkania, planuje "PR wranglers", promuje dokumentację w społeczności Kubernetes, dba o to, aby dokumentacja odnosiła sukcesy w cyklach wydawniczych Kubernetes oraz utrzymuje SIG Docs skupione na efektywnych priorytetach.
+Rola współprzewodniczącego jest rolą usługową: współprzewodniczący buduje potencjał współpracowników, zajmuje się procesami i polityką, organizuje i prowadzi spotkania, planuje "PR wranglers", promuje dokumentację w społeczności Kubernetesa, dba o to, aby dokumentacja odnosiła sukcesy w cyklach wydawniczych Kubernetes oraz utrzymuje SIG Docs skupione na efektywnych priorytetach.
 
 Obowiązki obejmują:
 
