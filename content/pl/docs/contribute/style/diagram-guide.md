@@ -13,7 +13,7 @@ języka podobnego do składni Markdown wewnątrz plików Markdown. Możesz równ
 do generowania plików graficznych `.svg` lub `.png`, które można dodać do swojej dokumentacji.
 
 Docelową grupą odbiorców tego przewodnika są osoby pragnące nauczyć się
-korzystania z Mermaid i/lub tworzenia oraz dodawania diagramów do dokumentacji Kubernetes.
+korzystania z Mermaid i/lub tworzenia oraz dodawania diagramów do dokumentacji Kubernetesa.
 
 Rysunek 1 przedstawia tematy omówione w tej sekcji. 
 
@@ -75,7 +75,7 @@ Diagramy poprawiają klarowność i zrozumiałość dokumentacji. Zapewniają ko
 Korzyści dla użytkownika obejmują:
 
 * __Przyjazne miejsce startowe__. Strona powitalna zawierająca jedynie szczegółowy tekst
-  może odstraszyć użytkowników, zwłaszcza tych, którzy po raz pierwszy korzystają z Kubernetes.
+  może odstraszyć użytkowników, zwłaszcza tych, którzy po raz pierwszy korzystają z Kubernetesa.
 * __Szybsze zrozumienie koncepcji__. Diagram może pomóc użytkownikom w
   zrozumieniu kluczowych aspektów skomplikowanego tematu. Twój diagram może
   służyć jako wizualny przewodnik edukacyjny, ułatwiając zgłębianie szczegółów tematu.
@@ -93,7 +93,7 @@ Korzyści dla współtwórców obejmują:
 Powinieneś wziąć pod uwagę grupę docelową. Oprócz doświadczonych użytkowników K8s, będziesz
 miał wielu nowych użytkowników Kubernetes. Nawet prosty diagram może
 pomóc nowym użytkownikom w przyswajaniu koncepcji Kubernetes. Dzięki temu stają się
-bardziej śmiali i pewni siebie w dalszym eksplorowaniu Kubernetes oraz jego dokumentacji.  
+bardziej śmiali i pewni siebie w dalszym eksplorowaniu Kubernetesa oraz jego dokumentacji.  
 
 ## Mermaid {#mermaid}
 
@@ -409,7 +409,7 @@ Jeśli Twoje zewnętrzne narzędzie do rysowania pozwala:
 
 * Możesz włączyć wiele logo, ikon i obrazów w formatach `.svg` lub `.png` do swojego diagramu.
   Jednak upewnij się, że przestrzegasz praw autorskich i postępujesz zgodnie z
-  [wytycznymi](/docs/contribute/style/content-guide/) dokumentacji Kubernetes dotyczącymi użycia treści stron trzecich.
+  [wytycznymi](/docs/contribute/style/content-guide/) dokumentacji Kubernetesa dotyczącymi użycia treści stron trzecich.
 * Powinieneś zapisać lokalizacje diagramu dla późniejszego dostępu przez
   współtwórców. Na przykład, Twoje narzędzie może oferować link do obrazu diagramu, lub możesz
   umieścić plik z kodem źródłowym, taki jak plik `.xml`, w miejscu dostępnym dla współtwórców.
@@ -716,7 +716,7 @@ sprawdzić, czy wygląda i brzmi dobrze. W razie wątpliwości użyj odwołania 
 
 **Kompletny obrazek**
 
-Rysunek 10 przedstawia diagram architektury Kubernetes,
+Rysunek 10 przedstawia diagram architektury Kubernetesa,
 który zawiera diagram, podpis diagramu oraz odniesienie do
 diagramu. Skrót `{{</* figure */>}}` renderuje diagram, dodaje
 podpis i zawiera opcjonalny parametr `link`, więc można
