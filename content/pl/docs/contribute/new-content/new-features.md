@@ -11,7 +11,7 @@ card:
 ---
 <!-- overview -->
 
-Każda główna wersja Kubernetes wprowadza nowe funkcje, które wymagają
+Każda główna wersja Kubernetesa wprowadza nowe funkcje, które wymagają
 dokumentacji. Nowe wersje przynoszą również aktualizacje do istniejących
 funkcji i dokumentacji (na przykład awansowanie funkcji z wersji alpha do beta).
 
@@ -67,13 +67,13 @@ Zawartość nie jest finalizowana do późnej fazy cyklu wydania, więc należy 
 
 ### Arkusz śledzenia funkcji {#feature-tracking-sheet}
 
-Arkusz śledzenia funkcji [dla danej wersji Kubernetes](https://github.com/kubernetes/sig-release/tree/master/releases)
+Arkusz śledzenia funkcji [dla danej wersji Kubernetesa](https://github.com/kubernetes/sig-release/tree/master/releases)
 wymienia
-każdą funkcję, która jest planowana do wydania. Każdy element zawiera
-nazwę funkcji, link do głównego problemu na GitHubie, poziom
-stabilności (Alpha, Beta lub Stable), SIG i osobę odpowiedzialną za jej wdrożenie,
-czy wymaga dokumentacji, projekt notatki o wydaniu dla funkcji
-oraz czy została zintegrowana. Pamiętaj o następujących zasadach:
+każdą funkcję, która jest planowana do wydania. Każdy element zawiera nazwę
+funkcji, link do głównego problemu na GitHubie, poziom
+stabilności (Alpha, Beta lub Stable), SIG i osobę odpowiedzialną za
+jej wdrożenie, czy wymaga dokumentacji, projekt notatki o wydaniu
+dla funkcji oraz czy została zintegrowana. Pamiętaj o następujących zasadach:
 
 - Funkcje w wersji Beta i Stable są zazwyczaj
   priorytetowane wyżej w dokumentacji niż funkcje w wersji Alfa.
@@ -84,11 +84,11 @@ oraz czy została zintegrowana. Pamiętaj o następujących zasadach:
 
 ## Dla developerów lub innych członków SIG {#for-developers-or-other-sig-members}
 
-Ta sekcja zawiera informacje dla członków innych
-Kubernetes SIGs dokumentujących nowe funkcje na potrzeby wydania.
+Ta sekcja zawiera informacje dla członków innych SIG
+Kubernetesów dokumentujących nowe funkcje na potrzeby wydania.
 
 Jeśli jesteś członkiem SIG, który rozwija nową funkcję dla
-Kubernetes, musisz współpracować z SIG Docs, aby mieć pewność, że
+Kubernetesa, musisz współpracować z SIG Docs, aby mieć pewność, że
 Twoja funkcja zostanie udokumentowana na czas przed wydaniem.
 Sprawdź [arkusz śledzenia funkcji](https://github.com/kubernetes/sig-release/tree/master/releases)
 lub sprawdź kanał Slack
@@ -187,7 +187,7 @@ stages:
     toVersion: "1.27"
 {{< / highlight >}}
 
-Ostatecznie Kubernetes przestanie w ogóle uwzględniać bramę funkcji.
+Ostatecznie Kubernetesy przestaną w ogóle uwzględniać bramę funkcji.
 Aby zasygnalizować usunięcie bramy funkcji, uwzględnij `removed: true` w
 przedniej części odpowiedniego pliku opisu. Wprowadzenie tej zmiany
 oznacza, że informacje o bramie funkcji przenoszą się z
