@@ -82,9 +82,9 @@ strony. Twórz zawartość strony, korzystając z sugerowanych sekcji strony.
 
 ### Pojęcie (ang. Concept) {#concept}
 
-Strona koncepcyjna wyjaśnia określony aspekt Kubernetes. Na
+Strona koncepcyjna wyjaśnia określony aspekt Kubernetesa. Na
 przykład, strona koncepcyjna może opisywać obiekt Deployment w
-Kubernetes i wyjaśniać jego rolę jako aplikacji po wdrożeniu,
+Kubernetesie i wyjaśniać jego rolę jako aplikacji po wdrożeniu,
 skalowaniu i aktualizacji. Zazwyczaj strony koncepcyjne nie
 zawierają instrukcji krok po kroku, lecz odsyłają do zadań lub samouczków.
 
@@ -145,7 +145,7 @@ W każdej sekcji napisz swoją treść. Użyj następujących wytycznych:
 - Dla `whatsnext`, podaj listę punktowaną z maksymalnie 5 tematami,
   które mogą zainteresować czytelnika jako kolejne tematy do przeczytania.
 
-Przykład opublikowanego tematu zadania to [Korzystanie z proxy HTTP do uzyskania dostępu do API Kubernetes](/docs/tasks/extend-kubernetes/http-proxy-access-api/).
+Przykład opublikowanego tematu zadania to [Korzystanie z proxy HTTP do uzyskania dostępu do API Kubernetesa](/docs/tasks/extend-kubernetes/http-proxy-access-api/).
 
 ### Samouczek (ang. Tutorial) {#tutorial}
 
@@ -153,7 +153,7 @@ Strona samouczka pokazuje, jak osiągnąć cel, który jest bardziej złożony
 niż pojedyncze zadanie. Zazwyczaj strona samouczka składa się z kilku
 sekcji, z których każda zawiera sekwencję kroków. Na przykład samouczek może
 przeprowadzać użytkownika przez przykładowy kod ilustrujący określoną
-funkcję Kubernetes. Samouczki mogą zawierać ogólne wyjaśnienia, ale powinny
+funkcję Kubernetesa. Samouczki mogą zawierać ogólne wyjaśnienia, ale powinny
 odsyłać do powiązanych tematów koncepcyjnych w celu dogłębnego omówienia zagadnienia.
 
 Aby napisać nową stronę samouczka, utwórz plik Markdown w
