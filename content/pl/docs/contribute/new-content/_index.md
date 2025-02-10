@@ -54,11 +54,11 @@ przesłaniem nowej treści. Szczegóły znajdują się poniżej.
 
 ## Podstawy kontrybucji {#contributing-basics}
 
-- Napisz dokumentację Kubernetes w formacie Markdown i
-  zbuduj stronę Kubernetes za pomocą [Hugo](https://gohugo.io/).
-- Dokumentacja Kubernetes używa [CommonMark](https://commonmark.org/) jako swojej wersji Markdown.
+- Napisz dokumentację Kubernetesa w formacie Markdown i
+  zbuduj stronę Kubernetesa za pomocą [Hugo](https://gohugo.io/).
+- Dokumentacja Kubernetesa używa [CommonMark](https://commonmark.org/) jako swojej wersji Markdown.
 - Źródło znajduje się na [GitHub](https://github.com/kubernetes/website).
-  Dokumentację Kubernetes można znaleźć w
+  Dokumentację Kubernetesa można znaleźć w
   `/content/en/docs/`. Część dokumentacji referencyjnej jest
   automatycznie generowana ze skryptów w katalogu `update-imported-docs/`.
 - [Typy zawartości strony](/docs/contribute/style/page-content-types/)
@@ -79,7 +79,7 @@ przesłaniem nowej treści. Szczegóły znajdują się poniżej.
 
 ### Podpisz CNCF CLA {#sign-the-cla}
 
-Wszyscy współtwórcy Kubernetes **muszą** przeczytać
+Wszyscy współtwórcy Kubernetesa **muszą** przeczytać
 [Przewodnik dla Współtwórców](https://github.com/kubernetes/community/blob/master/contributors/guide/README.md) i
 [podpisać Umowę Licencyjną Współtwórcy (CLA)](https://github.com/kubernetes/community/blob/master/CLA.md) .
 
