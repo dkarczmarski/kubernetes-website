@@ -26,7 +26,7 @@ zatwierdzających dla PR na podstawie właścicieli odpowiednich plików.
 
 ## Przeglądanie PR {#reviewing-a-pr}
 
-Dokumentacja Kubernetes podąża za [procesem przeglądu kodu Kubernetes](https://github.com/kubernetes/community/blob/master/contributors/guide/owners.md#the-code-review-process).
+Dokumentacja Kubernetesa podąża za [procesem przeglądu kodu Kubernetesa](https://github.com/kubernetes/community/blob/master/contributors/guide/owners.md#the-code-review-process).
 
 
 Wszystko opisane w [Przeglądaniu pull request](/docs/contribute/review/reviewing-prs)
@@ -76,11 +76,11 @@ z poniższych rzeczy jest prawdziwa:
 ## Polecenia do przeglądania Prow {#prow-commands-for-reviewing}
 
 [Prow](https://github.com/kubernetes/test-infra/blob/master/prow/README.md) to
-oparty na Kubernetes system CI/CD, który uruchamia zadania dla pull requestów (PR). Prow
-umożliwia uruchamianie komendy w stylu chatbota do obsługi działań GitHub w całej
-organizacji Kubernetes, takich jak
-[dodawanie i usuwanie etykiet](#adding-and-removing-issue-labels), zamykanie problemów i przydzielanie zatwierdzającego. Wprowadzaj
-komendy Prow jako komentarze do GitHub, używając formatu `/<command-name>`.
+oparty na Kubernetesie system CI/CD, który uruchamia zadania dla pull requestów
+(PR). Prow umożliwia uruchamianie komendy w stylu chatbota do obsługi działań GitHub w
+całej organizacji Kubernetesa, takich jak
+[dodawanie i usuwanie etykiet](#adding-and-removing-issue-labels), zamykanie problemów i przydzielanie
+zatwierdzającego. Wprowadzaj komendy Prow jako komentarze do GitHub, używając formatu `/<command-name>`.
 
 Najczęściej używane przez recenzentów i zatwierdzających polecenia prow to:
 
@@ -101,7 +101,7 @@ Aby zobaczyć polecenia, których można używać w PR, zapoznaj się z
 ## Priorytetyzacja i kategoryzacja problemów {#triage-and-categorize-issues}
 
 Ogólnie rzecz biorąc, SIG Docs podąża za
-[procesem triage zgłoszeń Kubernetes](https://github.com/kubernetes/community/blob/master/contributors/guide/issue-triage.md) i
+[procesem triage zgłoszeń Kubernetesa](https://github.com/kubernetes/community/blob/master/contributors/guide/issue-triage.md) i
 używa tych samych etykiet.
 
 Ten [filtr](https://github.com/kubernetes/website/issues?q=is%3Aissue+is%3Aopen+-label%3Apriority%2Fbacklog+-label%3Apriority%2Fimportant-longterm+-label%3Apriority%2Fimportant-soon+-label%3Atriage%2Fneeds-information+-label%3Atriage%2Fsupport+sort%3Acreated-asc)
@@ -131,7 +131,7 @@ w odniesieniu do GitHub Issue znajduje problemy, które mogą wymagać kategoryz
   `priority/important-longterm` | Zrób to w ciągu 6 miesięcy.
   `priority/backlog` | Może być odroczone na czas nieokreślony. Wykonaj, gdy zasoby są dostępne.
   `priority/awaiting-more-evidence` | Miejsce na potencjalnie dobre zagadnienie, aby nie zostało zapomniane.
-  `help` lub `good first issue` | Odpowiednie dla osób z bardzo małym doświadczeniem w Kubernetes lub SIG Docs. Po więcej informacji zobacz [Etykiety Chcemy Pomocy i Dobre na Pierwsze Zadanie](https://kubernetes.dev/docs/guide/help-wanted/).
+  `help` lub `good first issue` | Odpowiednie dla osób z bardzo małym doświadczeniem w Kubernetesie lub SIG Docs. Po więcej informacji zobacz [Etykiety Chcemy Pomocy i Dobre na Pierwsze Zadanie](https://kubernetes.dev/docs/guide/help-wanted/).
 
   {{< /table >}}
 
@@ -194,10 +194,10 @@ martwymi linkami przypisz `/priority important-longterm`, ponieważ muszą być 
 
 ### Problemy z blogiem {#blog-issues}
 
-Zakładamy, że wpisy na [blogu Kubernetes](/blog/) z
+Zakładamy, że wpisy na [blogu Kubernetesa](/blog/) z
 biegiem czasu tracą swoją aktualność. Z tego powodu
-utrzymujemy jedynie artykuły nie starsze niż rok. Jeśli
-zgłoszenie dotyczy wpisu starszego niż rok, zamknij je bez naprawiania.
+utrzymujemy jedynie artykuły nie starsze niż rok. Jeśli zgłoszenie dotyczy
+wpisu starszego niż rok, zamknij je bez naprawiania.
 
 ### Wnioski o wsparcie lub zgłoszenia błędów w kodzie {#support-requests-or-code-bug-reports}
 
