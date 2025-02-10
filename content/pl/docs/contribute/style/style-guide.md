@@ -7,10 +7,10 @@ weight: 40
 
 <!-- overview -->
 Ta strona zawiera wytyczne dotyczące stylu pisania dokumentacji
-Kubernetes.  Są to wytyczne, a nie zasady. Użyj swojego najlepszego
+Kubernetesa.  Są to wytyczne, a nie zasady. Użyj swojego najlepszego
 osądu i śmiało proponuj zmiany w tym dokumencie za pomocą pull requesta.
 
-Aby uzyskać dodatkowe informacje na temat tworzenia nowej zawartości dokumentacji Kubernetes,
+Aby uzyskać dodatkowe informacje na temat tworzenia nowej zawartości dokumentacji Kubernetesa,
 przeczytaj [Przewodnik treści](/docs/contribute/style/content-guide/).
 
 Zmiany w przewodniku stylu są dokonywane przez grupę SIG Docs. Aby zaproponować zmianę
@@ -20,19 +20,19 @@ nadchodzące spotkanie SIG Docs i weź udział w spotkaniu, aby uczestniczyć w 
 <!-- body -->
 
 {{< note >}}
-Dokumentacja Kubernetes wykorzystuje
-[Goldmark Markdown Renderer](https://github.com/yuin/goldmark) z
-pewnymi modyfikacjami oraz kilkoma
+Dokumentacja Kubernetesa wykorzystuje
+[Goldmark Markdown Renderer](https://github.com/yuin/goldmark) z pewnymi
+modyfikacjami oraz kilkoma
 [Kody Hugo](/docs/contribute/style/hugo-shortcodes/) do obsługi
 wpisów słownikowych, zakładek i przedstawiania stanu funkcji.
 {{< /note >}}
 
 ## Język {#language}
 
-Dokumentacja Kubernetes została przetłumaczona na wiele języków (zobacz
+Dokumentacja Kubernetesa została przetłumaczona na wiele języków (zobacz
 [Localization READMEs](https://github.com/kubernetes/website/blob/main/README.md#localization-readmemds)).
 
-Sposób lokalizacji dokumentacji na inny język jest opisany w [Lokalizowanie dokumentacji Kubernetes](/docs/contribute/localization/).
+Sposób lokalizacji dokumentacji na inny język jest opisany w [Lokalizowanie dokumentacji Kubernetesa](/docs/contribute/localization/).
 
 Anglojęzyczna dokumentacja używa amerykańskiej pisowni i gramatyki.
 
@@ -154,9 +154,9 @@ Wartość pola `exec` jest obiektem ExecAction. | Wartość pola "exec" jest obi
 Uruchom proces jako DaemonSet w przestrzeni nazw `kube-system`. | Uruchom proces jako DaemonSet w przestrzeni nazw kube-system.
 {{< /table >}}
 
-### Użyj stylu kodu dla narzędzi poleceń i nazw komponentów Kubernetes. {#use-code-style-for-kubernetes-command-tool-and-component-names}
+### Użyj stylu kodu dla narzędzi poleceń i nazw komponentów Kubernetesa. {#use-code-style-for-kubernetes-command-tool-and-component-names}
 
-{{< table caption = "Zalecane i niezalecane - Używaj stylu kodu dla narzędzi i nazw komponentów Kubernetes" >}}
+{{< table caption = "Zalecane i niezalecane - Używaj stylu kodu dla narzędzi i nazw komponentów Kubernetesa" >}}
 Zalecane | Niezalecane
 :--| :-----
 `kubelet` zachowuje stabilność węzła. | kubelet zachowuje stabilność węzła.
@@ -170,7 +170,7 @@ Uruchom proces z certyfikatem, `kube-apiserver --client-ca-file=FILENAME`. | Uru
 Zalecane | Niezalecane
 :--| :-----
 Narzędzie `kubeadm` inicjuje i konfiguruje maszyny w klastrze. | `kubeadm` inicjuje i konfiguruje maszyny w klastrze.
-Domyślnym harmonogramem dla Kubernetes jest kube-scheduler. | kube-scheduler jest domyślnym harmonogramem dla Kubernetes.
+Domyślnym schedulerem dla Kubernetesa jest kube-scheduler. | kube-scheduler jest domyślnym schedulerem dla Kubernetesa.
 {{< /table >}}
 
 ### Użyj ogólnego deskryptora zamiast nazwy komponentu (ang.). {#use-a-general-descriptor-over-a-component-name}
@@ -197,7 +197,7 @@ Ustaw wartość pola `replicas` na 2. | Ustaw wartość pola `replicas` na `2`.
 Jednak rozważ umieszczenie wartości w cudzysłowie, jeśli
 istnieje ryzyko, że czytelnicy mogą pomylić wartość z rodzajem API.
 
-## Odwoływanie się do zasobów API Kubernetes {#referring-to-kubernetes-api-resources}
+## Odwoływanie się do zasobów API Kubernetesa {#referring-to-kubernetes-api-resources}
 
 Ta sekcja omawia, jak odwołujemy się do zasobów API w dokumentacji.
 
@@ -210,9 +210,9 @@ reprezentuje Deployment o nazwie "my-app" w "default"
 {{< glossary_tooltip text="namespace" term_id="namespace" >}} jest
 zasobem - w taki sam sposób, w jaki wszystkie adresy URL w sieci identyfikują zasób.
 
-Dokumentacja Kubernetes również używa "zasób" w kontekście żądań
-i ograniczeń CPU oraz pamięci. Bardzo często dobrym pomysłem jest odniesienie
-się do zasobów API jako "zasoby API"; to pomaga
+Dokumentacja Kubernetesa również używa "zasób" w kontekście żądań i
+ograniczeń CPU oraz pamięci. Bardzo często dobrym pomysłem
+jest odniesienie się do zasobów API jako "zasoby API"; to pomaga
 uniknąć pomyłki z zasobami CPU i pamięci, lub z innymi rodzajami zasobów.
 
 Jeśli używasz nazwy zasobu w formie mnogiej pisanej małymi literami, takiej
@@ -230,10 +230,10 @@ Różne terminologie API Kubernetes to:
 - _Zasób API_: pojedyncza instancja rodzaju API (takiego jak `pod`, `secret`).
 - _Obiekt_: zasób, który służy jako "zamierzony stan". Obiekt to pożądany stan dla konkretnej
   części Twojego klastra, który warstwa serowania (ang. control plane)
-  Kubernetes stara się utrzymać. Wszystkie obiekty w API Kubernetes są również zasobami.
+  Kubernetesa stara się utrzymać. Wszystkie obiekty w API Kubernetes są również zasobami.
 
 Dla jasności, możesz dodać "zasób" lub "obiekt", gdy odnosisz
-się do zasobu API w dokumentacji Kubernetes. Przykład: napisz
+się do zasobu API w dokumentacji Kubernetesa. Przykład: napisz
 "obiekt typu Secret" zamiast "Secret". Jeśli jest to jasne
 wystarczy tylko z wielkiej litery, nie musisz dodawać dodatkowego słowa.
 
@@ -281,25 +281,25 @@ NAME     READY     STATUS    RESTARTS   AGE    IP           NODE
 nginx    1/1       Running   0          13s    10.200.0.4   worker0
 ```
 
-### Wersjonowanie przykładów Kubernetes {#versioning-kubernetes-examples}
+### Wersjonowanie przykładów Kubernetesa {#versioning-kubernetes-examples}
 
 Przykłady kodu i przykłady konfiguracji zawierające
 informacje o wersji powinny być zgodne z towarzyszącym tekstem.
 
-Jeśli informacje są specyficzne dla wersji, wersja Kubernetes musi być zdefiniowana w sekcji
+Jeśli informacje są specyficzne dla wersji, wersja Kubernetesa musi być zdefiniowana w sekcji
 `prerequisites` szablonu [Task template](/docs/contribute/style/page-content-types/#task) lub
-szablonu [Tutorial template](/docs/contribute/style/page-content-types/#tutorial). Po zapisaniu strony,
-sekcja `prerequisites` jest pokazywana jako **Zanim zaczniesz** (ang. **Before you begin**).
+szablonu [Tutorial template](/docs/contribute/style/page-content-types/#tutorial). Po zapisaniu
+strony, sekcja `prerequisites` jest pokazywana jako **Zanim zaczniesz** (ang. **Before you begin**).
 
-Aby określić wersję Kubernetes dla zadania lub strony
+Aby określić wersję Kubernetesa dla zadania lub strony
 tutoriala, umieść `min-kubernetes-server-version` w przedmowie strony.
 
 Jeśli przykładowy plik YAML znajduje się w osobnym pliku, znajdź i przejrzyj tematy, które go zawierają jako
 odniesienie. Zweryfikuj, czy wszystkie tematy używające samodzielnego pliku YAML mają zdefiniowane odpowiednie informacje o
 wersji. Jeśli samodzielny plik YAML nie jest odniesieniem w żadnym temacie, rozważ jego usunięcie zamiast aktualizowania.
 
-Na przykład, jeśli piszesz samouczek, który jest odpowiedni dla Kubernetes w wersji
-1.8, główna część twojego pliku markdown powinna wyglądać następująco:
+Na przykład, jeśli piszesz samouczek, który jest odpowiedni dla Kubernetesa
+w wersji 1.8, główna część twojego pliku markdown powinna wyglądać następująco:
 
 ```yaml
 ---
@@ -319,7 +319,7 @@ kind: Pod
 
 ## Kubernetes.io lista słów {#kubernetesio-word-list}
 
-Lista terminów i słów specyficznych dla Kubernetes, które należy stosować konsekwentnie w całej witrynie.
+Lista terminów i słów specyficznych dla Kubernetesa, które należy stosować konsekwentnie w całej witrynie.
 
 {{< table caption = "Kubernetes.io lista słów" >}}
 Termin | Użycie
@@ -691,7 +691,7 @@ Te kroki ... | Te proste kroki ...
 {{< /table >}}
 
 ### Plik EditorConfig {#editorconfig-file}
-Projekt Kubernetes utrzymuje plik EditorConfig, który ustawia wspólne preferencje stylu w edytorach
+Projekt Kubernetesa utrzymuje plik EditorConfig, który ustawia wspólne preferencje stylu w edytorach
 tekstu, takich jak VS Code. Możesz użyć tego pliku, jeśli chcesz zapewnić, że
 twoje wkłady są spójne z resztą projektu. Aby zobaczyć plik, zajrzyj do
 [`.editorconfig`](https://github.com/kubernetes/website/blob/main/.editorconfig) w głównym katalogu repozytorium.
