@@ -25,9 +25,9 @@ Każdego dnia w tygodniowej zmianie osoba odpowiedzialna za problemy (ang. Issue
 
 ## Wymagania {#requirements}
 
-- Musi być aktywnym członkiem organizacji Kubernetes.
+- Musi być aktywnym członkiem organizacji Kubernetesa.
 - Minimum 15 [nietrywialnych](https://www.kubernetes.dev/docs/guide/pull-requests/#trivial-edits)
-  wkładów do Kubernetes (z czego pewna ilość powinna być skierowana na kubernetes/website).
+  wkładów do Kubernetesa (z czego pewna ilość powinna być skierowana na kubernetes/website).
 - Pełni już rolę w nieformalnym charakterze.
 
 ## Przydatne polecenia Prow dla wranglerów {#helpful-prow-commands-for-wranglers}
