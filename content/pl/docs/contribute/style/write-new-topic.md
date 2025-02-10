@@ -5,12 +5,12 @@ weight: 70
 ---
 
 <!-- overview -->
-Ta strona pokazuje, jak utworzyć nowy temat dla dokumentacji Kubernetes.
+Ta strona pokazuje, jak utworzyć nowy temat dla dokumentacji Kubernetesa.
 
 
 ## {{% heading "prerequisites" %}}
 
-Utwórz fork repozytorium dokumentacji Kubernetes, jak opisano w
+Utwórz fork repozytorium dokumentacji Kubernetesa, jak opisano w
 [Otwieranie pull requesta](/docs/contribute/new-content/open-a-pr/).
 
 
@@ -23,9 +23,9 @@ Przygotowując się do napisania nowego tematu, zastanów się nad typem strony,
 {{< table caption = "Wytyczne dotyczące wyboru typu strony" >}}
 Typ | Opis
 :--- | :----------
-Pojecia (ang. Concept) | Strona o koncepcyjach (pojęciach) przedstawia różne aspekty Kubernetes. Przykładowo, może opisywać obiekt Deployment w Kubernetes, wyjaśniając jego funkcję w aplikacji podczas jej wdrażania, skalowania i aktualizacji. Zazwyczaj strony koncepcyjne nie zawierają sekwencji kroków, lecz zamiast tego zapewniają linki do zadań lub samouczków. Dla przykładu tematu koncepcyjnego zobacz <a href="/docs/concepts/architecture/nodes/">Węzły</a>.
+Pojecia (ang. Concept) | Strona o koncepcyjach (pojęciach) przedstawia różne aspekty Kubernetesa. Przykładowo, może opisywać obiekt Deployment w Kubernetes, wyjaśniając jego funkcję w aplikacji podczas jej wdrażania, skalowania i aktualizacji. Zazwyczaj strony koncepcyjne nie zawierają sekwencji kroków, lecz zamiast tego zapewniają linki do zadań lub samouczków. Dla przykładu tematu koncepcyjnego zobacz <a href="/docs/concepts/architecture/nodes/">Węzły</a>.
 Zadanie (ang. Task) | Strona zadania to instrukcja, która pokazuje, jak wykonać konkretną czynność. Jej celem jest przedstawienie czytelnikowi kroków, które może realizować na bieżąco podczas lektury. Strona zadania może mieć różną długość, o ile pozostaje skupiona na jednym zagadnieniu. Można na niej łączyć krótkie wyjaśnienia z instrukcjami krok po kroku, ale jeśli konieczne jest szersze omówienie tematu, lepiej umieścić je na stronie koncepcyjnej. Powiązane strony zadań i koncepcji powinny odsyłać do siebie nawzajem. Przykład krótkiej strony zadania można znaleźć w <a href="/docs/tasks/configure-pod-container/configure-volume-storage/">Konfiguracja Pod do korzystania z Volumenu jako pamięci</a>. Przykład dłuższej strony zadania można znaleźć w <a href="/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/">Konfiguracja Liveness i Readiness Probes</a>.
-Samouczek (ang. Tutorial) | Strona z samouczkiem pokazuje, jak osiągnąć cel, który łączy ze sobą kilka funkcji Kubernetes. Samouczek może zawierać kilka sekwencji kroków, które czytelnicy mogą faktycznie wykonać podczas czytania strony. Może również zawierać wyjaśnienia dotyczące powiązanych fragmentów kodu. Na przykład, samouczek może zapewniać przeprowadzenie przez przykładowy kod. Samouczek może zawierać krótkie wyjaśnienia funkcji Kubernetes, które są ze sobą łączone, ale powinien odsyłać do powiązanych tematów koncepcyjnych w celu dogłębnych wyjaśnień poszczególnych funkcji.
+Samouczek (ang. Tutorial) | Strona z samouczkiem pokazuje, jak osiągnąć cel, który łączy ze sobą kilka funkcji Kubernetesa. Samouczek może zawierać kilka sekwencji kroków, które czytelnicy mogą faktycznie wykonać podczas czytania strony. Może również zawierać wyjaśnienia dotyczące powiązanych fragmentów kodu. Na przykład, samouczek może zapewniać przeprowadzenie przez przykładowy kod. Samouczek może zawierać krótkie wyjaśnienia funkcji Kubernetes, które są ze sobą łączone, ale powinien odsyłać do powiązanych tematów koncepcyjnych w celu dogłębnych wyjaśnień poszczególnych funkcji.
 {{< /table >}}
 
 ### Tworzenie nowej strony {#creating-a-new-page}
