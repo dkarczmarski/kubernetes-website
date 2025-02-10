@@ -95,7 +95,7 @@ przykład, brazylijska odmiana języka portugalskiego jest lokalizowana jako `pt
 
 Gdy rozpoczynasz nową lokalizację, musisz
 przetłumaczyć całą [minimalnie wymaganą zawartość](#minimum-required-content),
-zanim projekt Kubernetes
+zanim projekt Kubernetesa
 będzie mógł opublikować zmiany na stronie internetowej.
 
 SIG Docs może pomóc Ci pracować na osobnej gałęzi, abyś
@@ -123,16 +123,16 @@ Możesz również utworzyć kanał Slack dla swojej lokalizacji w repozytorium
 `kubernetes/community`. Przykład dodawania kanału Slack znajdziesz w PR dla
 [dodawania kanału dla perskiego](https://github.com/kubernetes/community/pull/4980).
 
-### Dołącz do organizacji Kubernetes na GitHubie {#join-the-kubernetes-github-organization}
+### Dołącz do organizacji Kubernetesa na GitHubie {#join-the-kubernetes-github-organization}
 
 Kiedy otworzysz PR lokalizacyjny, możesz zostać członkiem
-organizacji Kubernetes na GitHubie. Każda osoba w zespole musi
+organizacji Kubernetesa na GitHubie. Każda osoba w zespole musi
 utworzyć własne [Żądanie Członkostwa w Organizacji](https://github.com/kubernetes/org/issues/new/choose)
 w repozytorium `kubernetes/org`.
 
 ### Dodaj swój zespół lokalizacyjny w GitHub {#add-your-localization-team-in-github}
 
-Następnie dodaj swój zespół lokalizacyjny Kubernetes do
+Następnie dodaj swój zespół lokalizacyjny Kubernetesa do
 [`sig-docs/teams.yaml`](https://github.com/kubernetes/org/blob/main/config/kubernetes/sig-docs/teams.yaml).
 Aby uzyskać przykład dodawania zespołu lokalizacyjnego, zobacz PR
 dodający [hiszpański zespół lokalizacyjny](https://github.com/kubernetes/org/pull/685).
@@ -156,10 +156,10 @@ Aby uzyskać przykład dodawania etykiety, zobacz PR dotyczący dodawania
 
 ### Modyfikacja konfiguracji witryny {#modify-the-site-configuration}
 
-Strona internetowa Kubernetes wykorzystuje Hugo jako swoją strukturę
-sieciową. Konfiguracja Hugo dla strony internetowej znajduje się w pliku
-[`hugo.toml`](https://github.com/kubernetes/website/tree/main/hugo.toml).
-Trzeba będzie zmodyfikować `hugo.toml`, aby obsługiwać nową lokalizację.
+Strona internetowa Kubernetesa wykorzystuje Hugo jako swoją strukturę
+sieciową. Konfiguracja Hugo dla strony internetowej znajduje się w pliku [`hugo.toml`](https://github.com/kubernetes/website/tree/main/hugo.toml).
+Trzeba
+będzie zmodyfikować `hugo.toml`, aby obsługiwać nową lokalizację.
 
 Dodaj blok konfiguracyjny dla nowego języka do `hugo.toml` pod istniejącym blokiem
 `[languages]`. Blok dla języka niemieckiego wygląda na przykład tak:
@@ -190,8 +190,8 @@ Przy przypisywaniu parametru `weight` ważne jest, aby zbadać
 istniejący blok języków i dostosować ich wartości, aby zapewnić, że są w
 uporządkowanej kolejności względem wszystkich języków, w tym każdego nowo dodanego języka.
 
-Aby uzyskać więcej informacji na temat wsparcia wielojęzycznego Hugo, zobacz
-[Multilingual mode](https://gohugo.io/content-management/multilingual/).
+Aby uzyskać więcej informacji na temat wsparcia wielojęzycznego Hugo,
+zobacz [Multilingual mode](https://gohugo.io/content-management/multilingual/).
 
 ### Dodaj nowy katalog lokalizacyjny {#add-a-new-localization-directory}
 
@@ -224,9 +224,9 @@ dodać kodeks postępowania w swoim języku.
 Aby ustawić role każdego użytkownika wnoszącego wkład do
 lokalizacji, utwórz plik `OWNERS` w podkatalogu specyficznym dla języka za pomocą:
 
-- **reviewers**: Lista zespołów Kubernetes z rolami recenzentów, w tym przypadku,
+- **reviewers**: Lista zespołów Kubernetesa z rolami recenzentów, w tym przypadku,
 - zespół `sig-docs-**-reviews` utworzony w [Dodaj swój zespół lokalizacyjny w GitHub](#add-your-localization-team-in-github).
-- **approvers**: Lista zespołów Kubernetes z rolami aprobatowymi, w tym przypadku,
+- **approvers**: Lista zespołów Kubernetesa z rolami aprobatowymi, w tym przypadku,
 - zespół `sig-docs-**-owners` utworzony w [Dodaj swój zespół lokalizacyjny w GitHub](#add-your-localization-team-in-github).
 - **labels**: Lista etykiet GitHub, które zostaną automatycznie zastosowane do PR, w tym
   przypadku etykieta językowa utworzona w [Konfiguracja przepływu pracy](#configure-the-workflow).
@@ -255,8 +255,8 @@ labels:
 
 Po dodaniu pliku `OWNERS` specyficznego dla danego języka, zaktualizuj
 [główny plik `OWNERS_ALIASES`](https://git.k8s.io/website/OWNERS_ALIASES)
-z nowymi zespołami Kubernetes dla
-lokalizacji, `sig-docs-**-owners` i `sig-docs-**-reviews`.
+z nowymi zespołami
+Kubernetesa dla lokalizacji, `sig-docs-**-owners` i `sig-docs-**-reviews`.
 
 Dla każdego zespołu dodaj listę użytkowników GitHub, o
 której mowa w [Dodaj swój zespół lokalizacyjny w GitHub](#add-your-localization-team-in-github),
@@ -320,7 +320,7 @@ minimalnej wymaganej zawartości, SIG Docs wykonuje następujące czynności:
 - Umożliwia wybór języka na stronie internetowej.
 - Publikuje dostępność lokalizacji poprzez kanały
   [Cloud Native Computing Foundation](https://www.cncf.io/about/)(CNCF),
-  w tym [blog Kubernetes](/blog/).
+  w tym [blog Kubernetesa](/blog/).
 
 ## Zlokalizuj treść {#localize-content}
 
@@ -335,13 +335,13 @@ Opis | URL
 -----|-----
 Strona główna | [Wszystkie adresy URL nagłówków i podnagłówków](/docs/home/)
 Konfiguracja | [Wszystkie adresy URL nagłówków i podnagłówków](/docs/setup/)
-Samouczki | [Podstawy Kubernetes](/docs/tutorials/kubernetes-basics/), [Witaj Minikube](/docs/tutorials/hello-minikube/)
+Samouczki | [Podstawy Kubernetesa](/docs/tutorials/kubernetes-basics/), [Witaj Minikube](/docs/tutorials/hello-minikube/)
 Ciągi znaków strony | [Wszystkie ciągi znaków strony](#site-strings-in-i18n) w nowym zlokalizowanym pliku TOML
 Wydania | [Wszystkie URL-e nagłówków i podnagłówków](/releases)
 
 Przetłumaczone dokumenty muszą znajdować się we własnym podkatalogu `content/**/`, ale
 powinny podążać tą samą ścieżką URL co źródła dla języka angielskiego. Na przykład, aby
-przygotować samouczek [Podstawy Kubernetes](/docs/tutorials/kubernetes-basics/) do tłumaczenia na
+przygotować samouczek [Podstawy Kubernetesa](/docs/tutorials/kubernetes-basics/) do tłumaczenia na
 język niemiecki, utwórz podkatalog w katalogu `content/de/` i skopiuj angielskie źródło lub katalog:
 
 ```shell
@@ -371,7 +371,7 @@ Kiedy tłumaczysz tekst w obrazach SVG (Scalable Vector
 Graphics), należy przestrzegać pewnych wytycznych, aby
 zapewnić dokładność i zachować spójność między wersjami
 językowymi. Obrazy SVG są powszechnie używane w dokumentacji
-Kubernetes do ilustrowania koncepcji, przepływów pracy i diagramów.
+Kubernetesa do ilustrowania koncepcji, przepływów pracy i diagramów.
 
 1. **Identyfikacja tekstu do przetłumaczenia**: Zacznij od zidentyfikowania
    elementów tekstowych wewnątrz obrazu SVG, które wymagają tłumaczenia. Elementy te
@@ -467,7 +467,7 @@ który zawiera treści na następujące tematy:
 - Przewodnik stylu
 - Słownik terminów zlokalizowanych i niezlokalizowanych
 - Konwencje Markdown
-- Terminologia obiektów API Kubernetes
+- Terminologia obiektów API Kubernetesa
 
 ### Spotkania Zoom specyficzne dla języka {#language-specific-zoom-meetings}
 
