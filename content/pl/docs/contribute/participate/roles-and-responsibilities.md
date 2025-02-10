@@ -6,12 +6,12 @@ weight: 10
 
 <!-- overview -->
 
-Każdy może przyczynić się do rozwoju Kubernetes. W miarę jak Twoje wkłady w
-SIG Docs będą się zwiększać, możesz ubiegać się o różne poziomy członkostwa
-w społeczności. Te role pozwalają Ci na przyjęcie większej odpowiedzialności w
-ramach społeczności. Każda rola wymaga więcej czasu i zaangażowania. Role te to:
+Każdy może przyczynić się do rozwoju Kubernetesa. W miarę jak Twoje wkłady w
+SIG Docs będą się zwiększać, możesz ubiegać się o różne poziomy członkostwa w społeczności.
+Te role pozwalają Ci na przyjęcie większej odpowiedzialności w ramach
+społeczności. Każda rola wymaga więcej czasu i zaangażowania. Role te to:
 
-- Każdy (ang. Anyone): regularni współpracownicy dokumentacji Kubernetes
+- Każdy (ang. Anyone): regularni współpracownicy dokumentacji Kubernetesa
 - Członkowie (ang. Members): mogą przypisywać i oceniać problemy oraz zapewniać niewiążącą recenzję w pull requestach.
 - Recenzenci (ang. Reviewers): mogą prowadzić przeglądy pull requestów zgłoszonych dla dokumentacji i mogą ręczyć za jakość zmiany
 - Zatwierdzający (ang. Approvers): mogą prowadzić przeglądy dokumentacji i scalać zmiany
@@ -20,7 +20,7 @@ ramach społeczności. Każda rola wymaga więcej czasu i zaangażowania. Role t
 
 ## Każdy {#anyone}
 
-Każda osoba posiadająca konto na GitHub może przyczynić się do rozwoju Kubernetes. SIG Docs serdecznie zaprasza wszystkich nowych współtwórców!
+Każda osoba posiadająca konto na GitHub może przyczynić się do rozwoju Kubernetesa. SIG Docs serdecznie zaprasza wszystkich nowych współtwórców!
 
 Każdy może:
 
@@ -173,7 +173,7 @@ Zatwierdzający mogą wykonać następujące czynności:
 - Publikować treści autorów, zatwierdzając i scalając pull requesty za pomocą komentarza `/approve`
 - Zaproponować ulepszenia do przewodnika stylu
 - Zaproponować usprawnienia testów dokumentacji
-- Zaproponować usprawnienia dla strony internetowej Kubernetes lub innych narzędzi
+- Zaproponować usprawnienia dla strony internetowej Kubernetesa lub innych narzędzi
 
 Jeśli PR już ma `/lgtm`, lub jeśli zatwierdzający również skomentuje `/lgtm`,
 PR zostaje automatycznie scalony. Zatwierdzający SIG Docs powinien zostawić
