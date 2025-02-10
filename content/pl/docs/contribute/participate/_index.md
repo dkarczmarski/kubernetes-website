@@ -10,9 +10,9 @@ card:
 <!-- overview -->
 
 SIG Docs jest jedną z [grup specjalnego zainteresowania](https://github.com/kubernetes/community/blob/master/sig-list.md)
-w ramach projektu
-Kubernetes, skoncentrowaną na pisaniu, aktualizowaniu i utrzymywaniu
-dokumentacji dla całego Kubernetes. Zobacz
+w ramach
+projektu Kubernetes, skoncentrowaną na pisaniu, aktualizowaniu i
+utrzymywaniu dokumentacji dla całego Kubernetesa. Zobacz
 [SIG Docs z repozytorium społeczności na GitHubie](https://github.com/kubernetes/community/tree/master/sig-docs) aby
 uzyskać więcej informacji o SIG.
 
@@ -26,11 +26,11 @@ lub [zatwierdzającym](/docs/contribute/participate/roles-and-responsibilities/#
 Te role wymagają większego dostępu i wiążą się z pewnymi
 obowiązkami w zakresie zatwierdzania i wprowadzania zmian. Zobacz
 [community-membership](https://github.com/kubernetes/community/blob/master/community-membership.md),
-aby uzyskać więcej informacji na temat tego, jak działa członkostwo w społeczności Kubernetes.
+aby uzyskać więcej informacji na temat tego, jak działa członkostwo w społeczności Kubernetesa.
 
-Reszta tego dokumentu przedstawia unikalne sposoby, w jakie te role funkcjonują w
-ramach SIG Docs, które odpowiada za utrzymanie jednego z najbardziej
-widocznych publicznie aspektów Kubernetes -- strony internetowej i dokumentacji Kubernetes.
+Reszta tego dokumentu przedstawia unikalne sposoby, w jakie te role funkcjonują
+w ramach SIG Docs, które odpowiada za utrzymanie jednego z najbardziej
+widocznych publicznie aspektów Kubernetesa -- strony internetowej i dokumentacji Kubernetes.
 
 <!-- body -->
 
@@ -38,8 +38,8 @@ widocznych publicznie aspektów Kubernetes -- strony internetowej i dokumentacji
 
 Każda SIG, w tym SIG Docs, wybiera jednego lub więcej członków SIG do
 pełnienia roli przewodniczących. Są oni punktami kontaktowymi pomiędzy SIG
-Docs a innymi częściami organizacji Kubernetes. Wymagają szerokiej wiedzy
-na temat struktury projektu Kubernetes jako całości oraz tego, jak SIG
+Docs a innymi częściami organizacji Kubernetesa. Wymagają szerokiej wiedzy na
+temat struktury projektu Kubernetes jako całości oraz tego, jak SIG
 Docs działa w jej ramach. Zobacz [Przywództwo](https://github.com/kubernetes/community/tree/master/sig-docs#leadership)
 z aktualną listą przewodniczących.
 
@@ -64,16 +64,16 @@ wsparcia zatwierdzeń PR, automatyzacja korzysta z informacji z plików `OWNERS`
 
 ### pliki OWNERS i front-matter {#owners-files-and-front-matter}
 
-Projekt Kubernetes wykorzystuje narzędzie automatyzacji o nazwie prow do
+Projekt Kubernetesa wykorzystuje narzędzie automatyzacji o nazwie prow do
 automatyzacji związanej z problemami i pull requestami w GitHub.
-[Repozytorium strony internetowej Kubernetes](https://github.com/kubernetes/website) używa
+[Repozytorium strony internetowej Kubernetesa](https://github.com/kubernetes/website) używa
 dwóch [wtyczek prow](https://github.com/kubernetes-sigs/prow/tree/main/pkg/plugins):
 
 - blunderbuss
 - approve
 
-Te dwa wtyczki używają plików [OWNERS](https://github.com/kubernetes/website/blob/main/OWNERS)
-i
+Te dwie wtyczki używają plików
+[OWNERS](https://github.com/kubernetes/website/blob/main/OWNERS) i
 [OWNERS_ALIASES](https://github.com/kubernetes/website/blob/main/OWNERS_ALIASES) w
 głównym katalogu repozytorium `kubernetes/website` na
 GitHubie, aby kontrolować jak prow działa w ramach tego repozytorium.
@@ -99,10 +99,10 @@ ograniczamy scalanie pull requestów do zatwierdzających SIG Docs. Oto jak to d
 
 - Gdy pull request ma zarówno etykiety `lgtm`, jak i `approve`, nie ma etykiet
   `hold`, i wszystkie testy przechodzą pomyślnie, pull request łączy się automatycznie.
-- Członkowie organizacji Kubernetes i zatwierdzający z SIG Docs mogą
+- Członkowie organizacji Kubernetesa i zatwierdzający z SIG Docs mogą
   dodawać komentarze w celu wstrzymania automatycznemu scaleniu danego pull
   requesta (poprzez dodanie komentarza `/hold` lub wstrzymanie komentarza `/lgtm`).
-- Każdy członek Kubernetes może dodać etykietę `lgtm`, dodając komentarz `/lgtm`.
+- Każdy członek Kubernetesa może dodać etykietę `lgtm`, dodając komentarz `/lgtm`.
 - Tylko zatwierdzający SIG Docs mogą scalić pull request dodając
   komentarz `/approve`. Niektórzy zatwierdzający pełnią również dodatkowe specyficzne
   role, takie jak [PR Wrangler](/docs/contribute/participate/pr-wranglers/)
@@ -113,7 +113,7 @@ ograniczamy scalanie pull requestów do zatwierdzających SIG Docs. Oto jak to d
 ## {{% heading "whatsnext" %}}
 
 
-Więcej informacji na temat wnoszenia wkładu w dokumentację Kubernetes można znaleźć w:
+Więcej informacji na temat wnoszenia wkładu w dokumentację Kubernetesa można znaleźć w:
 
 - [Wnoszenie nowej treści](/docs/contribute/new-content/)
 - [Przeglądanie treści](/docs/contribute/review/reviewing-prs)
