@@ -11,7 +11,7 @@ Każdy może przejrzeć pull requesty zgłoszone do dokumentacji. Odwiedź sekcj
 [pull requests](https://github.com/kubernetes/website/pulls) w repozytorium strony internetowej Kubernetes, aby zobaczyć otwarte pull requesty.
 
 Przeglądanie pull requestów do dokumentacji jest doskonałym sposobem na zapoznanie się ze
-społecznością Kubernetes. Pomaga to w poznaniu bazy kodu i budowaniu zaufania z innymi współtwórcami.
+społecznością Kubernetesa. Pomaga to w poznaniu bazy kodu i budowaniu zaufania z innymi współtwórcami.
 
 Przed przystąpieniem do przeglądu:
 
@@ -19,7 +19,7 @@ Przed przystąpieniem do przeglądu:
   [przewodnik stylu](/docs/contribute/style/style-guide/), aby móc zostawiać merytoryczne komentarze.
 - Zrozum różne [role i obowiązki](/docs/contribute/participate/roles-and-responsibilities/)
   w
-  społeczności dokumentacji Kubernetes.
+  społeczności dokumentacji Kubernetesa.
 
 <!-- body -->
 
@@ -144,7 +144,7 @@ Podczas przeglądania kieruj się następującymi wskazówkami jako punkt wyjśc
 
 ### Treść {#content}
 
-- Czy podobna treść istnieje w innym miejscu na stronie Kubernetes?
+- Czy podobna treść istnieje w innym miejscu na stronie Kubernetesa?
 - Czy treść nadmiernie zawiera linki do dokumentacji spoza witryny, dokumentacji poszczególnych dostawców lub dokumentacji niebędącej otwartym źródłem?
 
 ### Strona internetowa {#website}
@@ -179,29 +179,29 @@ Podczas przeglądania kieruj się następującymi wskazówkami jako punkt wyjśc
     w [front matter](https://gohugo.io/content-management/front-matter/) do tego celu.
 - Rozważ docelowych odbiorców i sprawdź czy wpis na blogu jest odpowiedni dla
   kubernetes.io . Na przykład, jeśli docelowymi odbiorcami są wyłącznie współtwórcy
-  Kubernetes, to bardziej odpowiednie może być kubernetes.dev, lub jeśli wpis na blogu
+  Kubernetesa, to bardziej odpowiednie może być kubernetes.dev, lub jeśli wpis na blogu
   dotyczy ogólnej inżynierii platformy, to może być bardziej odpowiedni na innej stronie.
 
   Ta zasada dotyczy również lustrzanych artykułów; choć jesteśmy otwarci na rozważenie wszystkich
   poprawnych artykułów zgłoszonych przez współautorów do mirroringu, nie wszystkie z nich zostają zmirrorywane.
 
 - Oznaczamy artykuły na blogu jako utrzymywane (`evergreen: true` w nagłówku), tylko jeśli
-  projekt Kubernetes zobowiązuje się do ich utrzymywania na czas nieokreślony. Niektóre artykuły
-  na blogu zdecydowanie na to zasługują, i zawsze oznaczamy nasze ogłoszenia o wydaniu jako
+  projekt Kubernetesa zobowiązuje się do ich utrzymywania na czas nieokreślony. Niektóre artykuły na
+  blogu zdecydowanie na to zasługują, i zawsze oznaczamy nasze ogłoszenia o wydaniu jako
   evergreen. Skonsultuj się z innymi współtwórcami, jeśli nie jesteś pewny jak to ocenić w tym punkcie.
 - [Przewodnik po treści](/docs/contribute/style/content-guide/) ma bezwarunkowe zastosowanie do artykułów na blogu oraz PR-ów, które je dodają.
   Pamiętaj, że niektóre ograniczenia w przewodniku stwierdzają, że są one istotne tylko dla dokumentacji; te ograniczenia nie dotyczą artykułów na blogu.
 - [Przewodnik stylu](/docs/contribute/style/style-guide/) w dużej mierze odnosi się również do PR-ów na blogu, ale robimy pewne wyjątki.
   
   - można używać "my" w artykule na blogu, który ma wielu autorów lub w przypadku, gdy wprowadzenie do artykułu wyraźnie wskazuje, że autor pisze w imieniu określonej grupy.
-  - unikamy używania kodów Kubernetes do wyróżnień (takich jak `{{</* caution */>}}`)
+  - unikamy używania kodów Kubernetesa do wyróżnień (takich jak `{{</* caution */>}}`)
   - stwierdzenia dotyczące przyszłości są w porządku, choć
-    używamy ich ostrożnie w oficjalnych ogłoszeniach w imieniu Kubernetes
+    używamy ich ostrożnie w oficjalnych ogłoszeniach w imieniu Kubernetesa
   - przykłady kodu nie muszą używać skrótu `{{</* code_sample */>}}` i często lepiej jest, jeśli tego nie robią
   - jest w porządku, aby autorzy pisali artykuł w swoim własnym stylu,
     o ile większość czytelników zrozumie przekazywany punkt
 - [Przewodnik po diagramach](/docs/contribute/style/diagram-guide/) jest skierowany do
-  dokumentacji Kubernetes, a nie do artykułów na blogu. Nadal dobrze jest być z nim zgodnym, ale:
+  dokumentacji Kubernetesa, a nie do artykułów na blogu. Nadal dobrze jest być z nim zgodnym, ale:
   - preferujemy SVG zamiast rastrowych formatów diagramów, a także zamiast Mermaid (możesz nadal umieścić źródło Mermaid w komentarzu)
   - nie ma potrzeby podpisywania diagramów jako Rysunek 1, Rysunek 2 itd.
 
