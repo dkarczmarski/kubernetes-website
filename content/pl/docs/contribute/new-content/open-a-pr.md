@@ -11,7 +11,7 @@ card:
 
 {{< note >}}
 **Deweloperzy**: Jeśli dokumentujesz nową funkcję dla
-nadchodzącego wydania Kubernetes, zobacz
+nadchodzącego wydania Kubernetesa, zobacz
 [Dokumentowanie nowej funkcji](/docs/contribute/new-content/new-features/).
 {{< /note >}}
 
@@ -100,10 +100,10 @@ Rysunek 1. Kroki otwierania PR przy użyciu GitHub.
 
 ### Adresowanie informacji zwrotnej na GitHub {#addressing-feedback-in-github}
 
-Zanim zmiany z pull request zostaną połączone, członkowie społeczności
-Kubernetes przeglądają i zatwierdzają je. `k8s-ci-robot` sugeruje recenzentów na
-podstawie najbliższego właściciela wspomnianego na stronach. Jeśli
-masz na myśli konkretną osobę, zostaw komentarz z jej nazwą użytkownika na GitHubie.
+Zanim zmiany z pull requesta zostaną połączone, członkowie społeczności
+Kubernetesa przeglądają i zatwierdzają je. `k8s-ci-robot` sugeruje recenzentów na
+podstawie najbliższego właściciela wspomnianego na stronach. Jeśli masz na
+myśli konkretną osobę, zostaw komentarz z jej nazwą użytkownika na GitHubie.
 
 Jeśli recenzent poprosi cię o wprowadzenie zmian:
 
@@ -157,7 +157,7 @@ class changes,changes2 white
 
 Rysunek 2. Praca z lokalnego forka w celu wprowadzenia zmian.
 
-### Sforkuj repozytorium kubernetes/website {#fork-the-kuberneteswebsite-repository}
+### Zrób fork repozytorium kubernetes/website {#fork-the-kuberneteswebsite-repository}
 
 1. Przejdź do repozytorium [`kubernetes/website`](https://github.com/kubernetes/website/).
 1. Wybierz **Fork**.
@@ -219,7 +219,7 @@ Rysunek 2. Praca z lokalnego forka w celu wprowadzenia zmian.
    - Dla nowych treści dotyczących istniejących funkcji użyj `upstream/main`.
    - Dla treści zlokalizowanej, użyj konwencji lokalizacji. Aby uzyskać więcej
      informacji, zobacz [lokalizowanie dokumentacji Kubernetes](/docs/contribute/localization/).
-   - Dla nowych funkcji w nadchodzącym wydaniu Kubernetes, użyj gałęzi funkcji. Aby uzyskać
+   - Dla nowych funkcji w nadchodzącym wydaniu Kubernetesa, użyj gałęzi funkcji. Aby uzyskać
      więcej informacji, zobacz [dokumentowanie wydania](/docs/contribute/new-content/new-features/).
    - W przypadku długoterminowych działań, nad którymi współpracuje wielu współtwórców SIG Docs, takich
      jak reorganizacja treści, użyj specjalnej gałęzi funkcji utworzonej dla tego działania.
@@ -348,7 +348,7 @@ Alternatywnie, zainstaluj i użyj polecenia `hugo` na swoim komputerze:
    git submodule update --init --recursive --depth 1
    ```
 
-1. W terminalu, przejdź do repozytorium swojej strony Kubernetes i uruchom serwer Hugo:
+1. W terminalu, przejdź do repozytorium swojej strony Kubernetesa i uruchom serwer Hugo:
 
    ```shell
    cd <path_to_your_repo>/website
@@ -424,7 +424,7 @@ podgląd za pomocą [Netlify](https://www.netlify.com/).
 
 - Jeśli budowa Netlify się nie powiedzie, wybierz **Details** dla uzyskania dodatkowych informacji.
 - Jeśli kompilacja w Netlify powiedzie się, wybierz **Details**, aby otworzyć wstępną wersję
-  strony internetowej Kubernetes z zastosowanymi zmianami. W ten sposób recenzenci sprawdzają Twoje zmiany.
+  strony internetowej Kubernetesa z zastosowanymi zmianami. W ten sposób recenzenci sprawdzają Twoje zmiany.
 
 GitHub automatycznie przypisuje etykiety do PR, aby pomóc recenzentom. Możesz je również dodać, jeśli to potrzebne. Aby uzyskać
 więcej informacji, zobacz [Dodawanie i usuwanie etykiet zagadnień](/docs/contribute/review/for-approvers/#adding-and-removing-issue-labels).
@@ -620,7 +620,7 @@ repozytoriów. Wiele z tych repozytoriów zawiera dokumentację: tekst pomocy dl
 użytkowników, komunikaty o błędach, odniesienia do API lub komentarze w kodzie.
 
 Jeśli widzisz tekst, który chciałbyś poprawić, użyj GitHuba, aby przeszukać wszystkie
-repozytoria w organizacji Kubernetes. To może pomóc ci zorientować się, gdzie zgłosić swój problem lub PR.
+repozytoria w organizacji Kubernetesa. To może pomóc ci zorientować się, gdzie zgłosić swój problem lub PR.
 
 Każde repozytorium ma swoje własne procesy i procedury. Zanim zgłosisz problem lub utworzysz PR,
 przeczytaj pliki `README.md`, `CONTRIBUTING.md` i `code-of-conduct.md` tego repozytorium, jeśli istnieją.
