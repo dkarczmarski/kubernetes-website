@@ -16,24 +16,24 @@ Studium przypadku wymaga szczegółowej weryfikacji przed zatwierdzeniem.
 
 ## Blog Kubernetes {#the-kubernetes-blog}
 
-Blog Kubernetes jest wykorzystywany przez projekt do komunikowania nowych funkcji, raportów
-społeczności oraz wszelkich wiadomości, które mogą być istotne dla społeczności Kubernetes. Dotyczy to zarówno
-użytkowników końcowych, jak i deweloperów. Większość treści bloga dotyczy wydarzeń w rdzeniu projektu, ale zachęcamy
-również do przesyłania informacji o wydarzeniach mających miejsce w innych częściach ekosystemu!
+Blog Kubernetesa jest wykorzystywany przez projekt do komunikowania nowych funkcji, raportów
+społeczności oraz wszelkich wiadomości, które mogą być istotne dla społeczności Kubernetesa. Dotyczy to zarówno
+użytkowników końcowych, jak i deweloperów. Większość treści bloga dotyczy wydarzeń w rdzeniu projektu,
+ale zachęcamy również do przesyłania informacji o wydarzeniach mających miejsce w innych częściach ekosystemu!
 
 Każdy może napisać post na blogu i przesłać go do recenzji.
 
 ### Przesyłanie posta {#submit-a-post}
 
 Posty na blogu nie powinny mieć charakteru komercyjnego i powinny składać się z oryginalnej
-treści, która ma szerokie zastosowanie w społeczności Kubernetes. Odpowiednia zawartość bloga obejmuje:
+treści, która ma szerokie zastosowanie w społeczności Kubernetesa. Odpowiednia zawartość bloga obejmuje:
 
-- Nowe możliwości Kubernetes
-- Aktualizacje projektów Kubernetes
+- Nowe możliwości Kubernetesa
+- Aktualizacje projektów Kubernetesa
 - Aktualizacje od Specjalnych Grup Zainteresowań (ang. Special Interest Groups - SIG)
 - Samouczki i instrukcje krok po kroku
-- Przywództwo myślowe w zakresie Kubernetes
-- Integracja z oprogramowaniem open source partnerów Kubernetes
+- Przywództwo myślowe w zakresie Kubernetesa
+- Integracja z oprogramowaniem open source partnerów Kubernetesa
 - **Tylko oryginalna treść**
 
 Treści nieodpowiednie obejmują:
@@ -65,22 +65,22 @@ Aby przesłać wpis na bloga, wykonaj następujące kroki:
 
 - Posty na blogu nie powinny być ofertami sprzedażowymi.
 
-  - Artykuły muszą zawierać treści, które mają szerokie zastosowanie w społeczności Kubernetes.
-    Na przykład, tekst powinien skupiać się na głównym projekcie Kubernetes, a nie na
+  - Artykuły muszą zawierać treści, które mają szerokie zastosowanie w społeczności Kubernetesa. Na
+    przykład, tekst powinien skupiać się na głównym projekcie Kubernetesa, a nie na
     konfiguracjach specyficznych dla dostawców. Sprawdź [Przewodnik stylu dokumentacji](/docs/contribute/style/content-guide/#what-s-allowed)
-    dla informacji, co zazwyczaj jest dozwolone w zasobach Kubernetes.
-  - Linki powinny przede wszystkim prowadzić do oficjalnej dokumentacji Kubernetes.
+    dla informacji, co zazwyczaj jest dozwolone w zasobach Kubernetesa.
+  - Linki powinny przede wszystkim prowadzić do oficjalnej dokumentacji Kubernetesa.
     Podczas używania zewnętrznych odniesień, linki powinny być zróżnicowane - na przykład
     zgłoszenie nie powinno zawierać tylko linków prowadzących wyłącznie do bloga jednej firmy.
   - Czasami jest to delikatna równowaga.
     [Zespół blogowy](https://kubernetes.slack.com/messages/sig-docs-blog/) jest po to, aby udzielać wskazówek,
-    czy post jest odpowiedni dla bloga Kubernetes, więc nie wahaj się skontaktować.
+    czy post jest odpowiedni dla bloga Kubernetesa, więc nie wahaj się skontaktować.
 
 - Posty na blogu nie są publikowane w określonych terminach.
 
     - Artykuły są przeglądane przez ochotników ze społeczności. Postaramy się jak najlepiej
       dostosować do określonych terminów, ale nie dajemy żadnych gwarancji.
-  - Wiele kluczowych części projektów Kubernetes wysyła posty na blogu w trakcie okienek
+  - Wiele kluczowych części projektów Kubernetesa wysyła posty na blogu w trakcie okienek
     wydań, opóźniając czasy publikacji. Rozważ przesłanie podczas spokojniejszego okresu cyklu wydania.
   - Jeśli chcesz lepiej skoordynować daty publikacji postów, bardziej odpowiednim wyborem będzie
     współpraca z [marketingiem CNCF](https://www.cncf.io/about/contact/) niż samo przesłanie wpisu na bloga.
@@ -88,19 +88,19 @@ Aby przesłać wpis na bloga, wykonaj następujące kroki:
     odpowiedniej uwagi, możesz skontaktować się z zespołem blogowym na
     [kanale Slack `#sig-docs-blog`](https://kubernetes.slack.com/messages/sig-docs-blog/), aby zapytać w czasie rzeczywistym.
 
-- Posty na blogu powinny być istotne dla użytkowników Kubernetes.
+- Posty na blogu powinny być istotne dla użytkowników Kubernetesa.
 
   - Tematy związane z uczestnictwem w działaniach SIG Kubernetes lub ich wynikami są zawsze na temat (zobacz prace
     zespołu [Contributor Comms Team](https://github.com/kubernetes/community/blob/master/communication/contributor-comms/blogging-resources/blog-guidelines.md#contributor-comms-blog-guidelines)
     w celu uzyskania wsparcia dla tych postów).
-  - Komponenty Kubernetes są celowo modularne, więc narzędzia
+  - Komponenty Kubernetesa są celowo modularne, więc narzędzia
     korzystające z istniejących punktów integracji, takich jak CNI i CSI, są na temat.
   - Posty na temat innych projektów CNCF mogą, ale nie muszą być na
     temat. Zalecamy skonsultowanie się z zespołem bloga przed przesłaniem szkicu.
     - Wiele projektów CNCF ma własne blogi. Często są one lepszym wyborem dla
       postów. Są momenty, w których główna funkcja lub kamień milowy projektu CNCF
-      są na tyle interesujące dla użytkowników, że warto je opisać na blogu Kubernetes.
-  - Wpisy na blogu dotyczące wkładu w projekt Kubernetes powinny
+      są na tyle interesujące dla użytkowników, że warto je opisać na blogu Kubernetesa.
+  - Wpisy na blogu dotyczące wkładu w projekt Kubernetesa powinny
     znajdować się na [stronie Kubernetes Contributors](https://kubernetes.dev)
 
 - Wpisy na blogu powinny być oryginalną treścią
@@ -195,19 +195,19 @@ Aby zgłosić wpis na blogu, postępuj zgodnie z tymi wskazówkami:
 
 ### Mirroring bloga Kubernetes {#mirroring-from-the-kubernetes-contributor-blog}
 
-Aby zrobić mirroring posta na blogu z [bloga współautorów Kubernetes](https://www.kubernetes.dev/blog/), postępuj zgodnie z tymi wytycznymi:
+Aby zrobić mirroring posta na blogu z [bloga współautorów Kubernetesa](https://www.kubernetes.dev/blog/), postępuj zgodnie z tymi wytycznymi:
 
 - Zachowaj tę samą treść bloga. Jeśli są jakieś zmiany, powinny być najpierw dokonane w oryginalnym artykule, a następnie w artykule lustrzanym.
 - Zmirorowany blog powinien mieć `canonicalUrl`, czyli w zasadzie adres URL oryginalnego bloga po jego opublikowaniu.
-- To samo, co w [blogach współtwórców Kubernetes](https://kubernetes.dev/blog), posty na blogu Kubernetes również wymieniają autorów w nagłówku YAML zgodnie z nowymi wytycznymi. Należy to zapewnić.
+- To samo, co w [blogach współtwórców Kubernetesa](https://kubernetes.dev/blog), posty na blogu Kubernetes również wymieniają autorów w nagłówku YAML zgodnie z nowymi wytycznymi. Należy to zapewnić.
 - Daty publikacji pozostają takie same jak w oryginalnym blogu.
 
 Wszystkie pozostałe wytyczne i oczekiwania opisane powyżej również obowiązują.
 
 ## Prześlij studium przypadku {#submit-a-case-study}
 
-Studia przypadków pokazują, jak organizacje wykorzystują Kubernetes do rozwiązywania
-rzeczywistych problemów. Zespół marketingowy Kubernetes oraz członkowie
+Studia przypadków pokazują, jak organizacje wykorzystują Kubernetesa do rozwiązywania
+rzeczywistych problemów. Zespół marketingowy Kubernetesa oraz członkowie
 {{< glossary_tooltip text="CNCF" term_id="cncf" >}} współpracują z Tobą nad wszystkimi studiami przypadków.
 
 Zapoznaj się z źródłem dla [istniejących studiów przypadków](https://github.com/kubernetes/website/tree/main/content/en/case-studies).
