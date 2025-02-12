@@ -11,7 +11,7 @@ Dokumentacja Kubernetesa obejmuje kilka typów treści stron:
 - Pojęcia i koncepcje (ang. Concept)
 - Zadanie (ang. Task)
 - Samouczek (ang. Tutorial)
-- Dokumentacja referencyjna (ang. Reference)
+- Materiały źródłowe (ang. Reference)
 
 <!-- body -->
 
@@ -190,10 +190,10 @@ W każdej sekcji napisz swoją treść. Użyj następujących wytycznych:
 Przykładem opublikowanego tematu samouczka jest
 [Uruchamianie aplikacji bezstanowej przy użyciu Deployment](/docs/tasks/run-application/run-stateless-application-deployment/).
 
-### Referencje (ang. Reference) {#reference}
+### Materiały źródłowe (ang. Reference) {#reference}
 
-Strona referencyjna narzędzia komponentu pokazuje opis oraz dostępne opcje flag dla narzędzia
-komponentu Kubernetes. Każda strona jest generowana przez skrypty z wykorzystaniem poleceń narzędzia komponentu.
+Każde narzędzie Kubernetesa ma swoją stronę materiałów źródłowych (ang. reference page), gdzie można znaleźć jego opis i
+listę dostępnych opcji. Dokumentacja ta jest generowana przez skrypty, które automatycznie pobierają informacje z poleceń narzędzia.
 
 Strona z odniesieniem do narzędzia ma kilka możliwych sekcji:
 
