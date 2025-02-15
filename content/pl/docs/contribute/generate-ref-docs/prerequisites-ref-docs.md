@@ -1,7 +1,7 @@
 
 ### Wymagania: {#requirements}
 
-- Potrzebujesz maszyny, która działa na systemie Linux lub macOS.
+- Potrzebujesz maszyny z systemem operacyjnym Linux lub macOS.
 
 - Musisz mieć zainstalowane następujące narzędzia:
 
