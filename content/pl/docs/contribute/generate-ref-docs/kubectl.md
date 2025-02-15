@@ -36,7 +36,7 @@ mkdir -p $HOME/<workspace>
 export GOPATH=$HOME/<workspace>
 ```
 
-Uzyskaj lokalną kopię następujących repozytoriów:
+Utwórz lokalną kopię następujących repozytoriów:
 
 ```shell
 go get -u github.com/spf13/pflag
@@ -252,5 +252,5 @@ materiałów źródłowych będą widoczne w [opublikowanej dokumentacji](/docs/
 ## {{% heading "whatsnext" %}}
 
 * [Szybki start generowania materiałów źródłowych](/docs/contribute/generate-ref-docs/quickstart/)
-* [Generowanie materiałów źródłowych dla komponentów i narzędzi Kubernetes](/docs/contribute/generate-ref-docs/kubernetes-components/)
+* [Generowanie materiałów źródłowych dla komponentów i narzędzi Kubernetesa](/docs/contribute/generate-ref-docs/kubernetes-components/)
 * [Generowanie materiałów źródłowych dla Kubernetes API](/docs/contribute/generate-ref-docs/kubernetes-api/)
