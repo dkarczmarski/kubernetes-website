@@ -61,7 +61,7 @@ Pamiętaj o następujących rzeczach przy zgłaszaniu problemu:
   odwołaj się do niego poprzez podanie pełnego adresu URL lub numeru zgłoszenia lub pull
   requesta poprzedzonego znakiem `#`. Na przykład: `Introduced by #987654`.
 - Przestrzegaj [Kodeksu postępowania](/community/code-of-conduct/).
-  Szanuj swoich współtwórców. Na przykład,
+  Szanuj innych współtwórców. Na przykład,
   "Dokumentacja jest okropna" nie jest ani pomocną ani uprzejmą opinią.
 
 
