@@ -82,7 +82,7 @@ strony. Twórz zawartość strony, korzystając z sugerowanych sekcji strony.
 
 ### Pojęcie (ang. Concept) {#concept}
 
-Strona koncepcyjna wyjaśnia określony aspekt Kubernetesa. Na
+Strona z pojęciami wyjaśnia określony aspekt Kubernetesa. Na
 przykład, strona koncepcyjna może opisywać obiekt Deployment w
 Kubernetesie i wyjaśniać jego rolę jako aplikacji po wdrożeniu,
 skalowaniu i aktualizacji. Zazwyczaj strony koncepcyjne nie
@@ -113,9 +113,9 @@ Strona [adnotacje](/docs/concepts/overview/working-with-objects/annotations/) je
 
 ### Zadanie (ang. Task) {#task}
 
-Strona typu zadanie pokazuje, jak wykonać jedną rzecz, zazwyczaj poprzez podanie
-krótkiej sekwencji kroków. Strony z zadaniami zawierają minimalne wyjaśnienia, ale
-często dostarczają linki do tematów koncepcyjnych, które zapewniają powiązane tło i wiedzę.
+Strony opisujące wykonywanie zadań zawierają minimum
+wyjaśnień, ale zwykle podają odnośniki do
+dokumentacji objaśniającej pojęcia i szerszy kontekst danego tematu.
 
 Aby napisać nową stronę zadania, utwórz plik Markdown w
 podkatalogu katalogu `/content/en/docs/tasks`, z następującymi sekcjami:
@@ -132,7 +132,7 @@ Sekcje `overview`, `steps` i `discussion` pojawiają się jako komentarze
 na stronie zadania. Możesz dodać sekcje
 `prerequisites` i `whatsnext` do swojej strony za pomocą kodu `heading`.
 
-W każdej sekcji napisz swoją treść. Użyj następujących wytycznych:
+Każdą sekcję uzupełnij treścią. Użyj następujących wytycznych:
 
 - Użyj nagłówków poziomu H2 lub niższego (z dwoma wiodącymi
   znakami `#`). Sekcje są automatycznie tytułowane przez szablon.
@@ -172,7 +172,7 @@ Sekcje `overview`, `objectives` i `lessoncontent` pojawiają się
 jako komentarze na stronie samouczka. Możesz dodać sekcje
 `prerequisites`, `cleanup` i `whatsnext` do swojej strony za pomocą kodu `heading`.
 
-W każdej sekcji napisz swoją treść. Użyj następujących wytycznych:
+Każdą sekcję uzupełnij treścią. Użyj następujących wytycznych:
 
 - Użyj nagłówków poziomu H2 lub niższego (z dwoma wiodącymi
   znakami `#`). Sekcje są automatycznie tytułowane przez szablon.
